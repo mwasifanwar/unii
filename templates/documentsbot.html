@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISLA University Documents Bot</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+    <div class="chatbot-container">
+        <div class="chatbot-header">
+            <i class="fas fa-arrow-left back-button" onclick="window.location.href='/options'"></i>
+            <img src="static/logo.png" alt="University Logo">
+            <i class="fas fa-history history-button" onclick="clearChat()"></i>
+        </div>
+        <div class="chatbot-body">
+            <div id="chat-output" class="chat-output"></div>
+            <div class="chat-input-container">
+                <input type="text" id="user-input" placeholder="Ask any question documents, or track your request...">
+                <button id="send-button"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        let userToken = null;
+
+
+        function clearChat() {
+            document.getElementById('chat-output').innerHTML = ''; 
+        }
+        
+
+
+        document.getElementById('send-button').addEventListener('click', function () {
+            let message = document.getElementById('user-input').value;
+            if (message.trim() !== '') {
+                appendMessage('User', message, 'user');
+                document.getElementById('user-input').value = '';
+                sendMessageToBot(message);
+            }
+        });
+
+        document.getElementById('user-input').addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') {
+                document.getElementById('send-button').click();
+                e.preventDefault();
+            }
+        });
+
+        function appendMessage(sender, message, senderClass, currentLanguage = 'en') {
+            let chatBox = document.getElementById('chat-output');
+            let messageDiv = document.createElement('div');
+            messageDiv.className = `chat-message ${senderClass}`;
+
+            let iconClass = senderClass === 'user' ? 'fas fa-user-circle user-icon' : 'fas fa-robot bot-icon';
+            let iconElement = document.createElement('i');
+            iconElement.className = iconClass;
+
+            let contentElement = document.createElement('div');
+            contentElement.className = 'message-content';
+            contentElement.innerHTML = message;
+
+            let optionsDiv = document.createElement('div');
+            optionsDiv.className = 'message-options';
+            optionsDiv.innerHTML = `
+                <div class="copy-text" onclick="copyText('${message}')"><i class="fas fa-copy"></i> Copy Text</div>
+                <div class="like-dislike">
+                    <i class="fas fa-thumbs-up like"></i>
+                    <i class="fas fa-thumbs-down dislike"></i>
+                </div>
+            `;
+
+            messageDiv.appendChild(iconElement);
+            messageDiv.appendChild(contentElement);
+            messageDiv.appendChild(optionsDiv);
+
+            
+            if (senderClass === 'bot') {
+                let translationButton = document.createElement('button');
+                translationButton.className = 'translation-button';
+                translationButton.textContent = currentLanguage === 'en' ? 'Translate to Portuguese' : 'Translate to English';
+                translationButton.setAttribute('data-current-language', currentLanguage);
+
+                translationButton.addEventListener('click', function () {
+                    let currentLang = translationButton.getAttribute('data-current-language');
+                    translateMessage(contentElement, message, currentLang, translationButton);
+                });
+                messageDiv.appendChild(translationButton);
+            }
+
+            chatBox.appendChild(messageDiv);
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+
+        async function sendMessageToBot(message) {
+            try {
+                let response = await fetch('/webhook', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${userToken}`
+                    },
+                    body: JSON.stringify({
+                        queryResult: {
+                            queryText: message
+                        },
+                        token: userToken
+                    })
+                });
+
+                let data = await response.json();
+                console.log("Response from backend:", data);
+
+                if (data.fulfillmentText) {
+                    appendMessage('Bot', data.fulfillmentText, 'bot', 'en');
+                }
+
+                if (data.download_link) {
+                    let downloadButtonHTML = `<a href="${data.download_link}" target="_blank">
+                                                  <button>Download Transcript</button>
+                                              </a>`;
+                    appendMessage('Bot', downloadButtonHTML, 'bot');
+                }
+            } catch (error) {
+                console.error("Error during fetch:", error);
+                appendMessage('Bot', 'Sorry, there was an error processing your request.', 'bot');
+            }
+        }
+
+        
+        async function translateMessage(contentElement, message, currentLanguage, translationButton) {
+            try {
+                let response = await fetch('/translate', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        message: message,
+                        currentLanguage: currentLanguage  
+                    })
+                });
+                let data = await response.json();
+                if (data && data.translatedText) {
+                    
+                    contentElement.innerHTML = data.translatedText;
+                   
+                    let newLanguage = data.newLanguage;
+                    translationButton.textContent = newLanguage === 'en' ? 'Translate to Portuguese' : 'Translate to English';
+                    translationButton.setAttribute('data-current-language', newLanguage);  
+                }
+            } catch (error) {
+                console.error('Error translating message', error);
+            }
+        }
+
+        function storeUserToken(token) {
+            userToken = token;
+        }
+
+        function triggerDownload(downloadLink) {
+            window.open(downloadLink, '_blank');
+        }
+
+        function copyText(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                alert("Text copied to clipboard");
+            }).catch(err => {
+                console.error("Error copying text: ", err);
+            });
+        }
+
+        storeUserToken('{{ session["token"] }}');
+    </script>
+</body>
+</html>

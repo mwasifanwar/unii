@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professor Dashboard - ISLA University</title>
+    <link rel="stylesheet" href="static/dashboard.css">
+</head>
+<body>
+    <div class="chatbot-container">
+        <div class="chatbot-header">
+            <img src="static/logo.png" alt="University Logo">
+            <div class="header-buttons">
+                <button onclick="window.location.href='/professor-reminders'" class="chatbot-button">Chatbot</button>
+                <button onclick="window.location.href='/'" class="logout-button">Logout</button>
+            </div>
+        </div>        
+        <div class="chatbot-body">
+            <h2>Professor Dashboard</h2>
+            <form id="add-reminder-form" method="POST" action="/professor-dashboard">
+                <div class="input-group">
+                    <label for="reminder_type">Reminder Type</label>
+                    <input type="text" id="reminder_type" name="reminder_type" required>
+                </div>
+                <div class="input-group">
+                    <label for="description">Description</label>
+                    <textarea id="description" name="description" required></textarea>
+                </div>
+                <div class="input-group">
+                    <label for="due_date">Due Date</label>
+                    <input type="date" id="due_date" name="due_date" required>
+                </div>
+                <button type="submit" class="add-button">Add Reminder</button>
+            </form>
+
+            <div class="reminders-list">
+                <h3>Your Current Reminders</h3>
+                {% if reminders %}
+                    <ul>
+                        {% for reminder in reminders %}
+                            <li><strong>{{ reminder.type }}</strong>: {{ reminder.description }} (Due: {{ reminder.due_date }})</li>
+                        {% endfor %}
+                    </ul>
+                {% else %}
+                    <p>No reminders available.</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</body>
+</html>

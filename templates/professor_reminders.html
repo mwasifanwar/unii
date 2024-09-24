@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professor Reminders - ISLA University</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+    <div class="chatbot-container">
+        <div class="chatbot-header">
+            <i class="fas fa-arrow-left back-button" onclick="window.location.href='/professor-dashboard'"></i>
+            <img src="static/logo.png" alt="University Logo">
+            <i class="fas fa-history history-button" onclick="clearChat()"></i>
+        </div>
+        <div class="chatbot-body">
+            <div id="chat-output" class="chat-output"></div>
+            <div class="chat-input-container">
+                <input type="text" id="professor-input" placeholder="Ask about your reminders...">
+                <button id="send-button"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        document.getElementById('send-button').addEventListener('click', function () {
+            let message = document.getElementById('professor-input').value;
+            if (message.trim() !== '') {
+                appendMessage('User', message, 'user');
+                document.getElementById('professor-input').value = '';
+                sendMessageToBot(message);
+            }
+        });
+
+        document.getElementById('professor-input').addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') {
+                document.getElementById('send-button').click();
+                e.preventDefault();
+            }
+        });
+
+        function appendMessage(sender, message, senderClass) {
+            let chatBox = document.getElementById('chat-output');
+            let messageDiv = document.createElement('div');
+            messageDiv.className = `chat-message ${senderClass}`;
+
+            let iconClass = senderClass === 'user' ? 'fas fa-user-circle user-icon' : 'fas fa-robot bot-icon';
+            let iconElement = document.createElement('i');
+            iconElement.className = iconClass;
+
+            let contentElement = document.createElement('div');
+            contentElement.className = 'message-content';
+            contentElement.textContent = message;
+
+            messageDiv.appendChild(iconElement);
+            messageDiv.appendChild(contentElement);
+            chatBox.appendChild(messageDiv);
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+
+        async function sendMessageToBot(message) {
+            try {
+                let response = await fetch('/professor-reminder-webhook', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        queryResult: {
+                            queryText: message 
+                        }
+                    })
+                });
+                let data = await response.json();
+                if (data && data.fulfillmentText) {
+                    appendMessage('Bot', data.fulfillmentText, 'bot');
+                } else {
+                    appendMessage('Bot', 'Sorry, there was an error processing your request.', 'bot');
+                }
+            } catch (error) {
+                appendMessage('Bot', 'Sorry, there was an error processing your request.', 'bot');
+            }
+        }
+    </script>
+</body>
+</html>

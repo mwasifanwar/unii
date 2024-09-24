@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details</title>
+    <link rel="stylesheet" href="static/studentdetail.css">
+</head>
+<body>
+    <div class="chatbot-container">
+        <div class="chatbot-header">
+            <img src="static/logo.png" alt="University Logo">
+        </div>
+        <div class="chatbot-body">
+            <h2>Student Details</h2>
+            <form id="student-detail-form" method="POST" action="/submit_student_details">
+                <div class="question">
+                    <label for="student_id">Student ID:</label>
+                    <input type="text" id="student_id" name="student_id" required>
+                </div>
+                <div class="question">
+                    <label for="student_name">Name:</label>
+                    <input type="text" id="student_name" name="student_name" required>
+                </div>
+                <div class="question">
+                    <label for="student_email">Email:</label>
+                    <input type="email" id="student_email" name="student_email" required>
+                </div>
+                <button type="submit" class="submit-button">Continue</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

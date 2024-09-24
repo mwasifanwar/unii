@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documents Portal</title>
+    <link rel="stylesheet" href="/static/document_portal.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Documents Portal</h1>
+        <p>Welcome, {{ session['student_id'] }}! Below is a list of your available documents:</p>
+
+        {% if documents %}
+            <ul class="document-list">
+                {% for document in documents %}
+                    <li class="document-item">
+                        <span>{{ document }}</span>
+                        <a href="/download/{{ session['student_id'] }}/{{ document }}" class="btn-download">Download</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No documents are available at the moment.</p>
+        {% endif %}
+    </div>
+</body>
+</html>

@@ -1,0 +1,193 @@
+/* General styling for the container */
+.chatbot-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 50px auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #ffffff;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header section */
+.chatbot-header {
+    background-color: #ff5733; /* Maintain the theme's color */
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chatbot-header img {
+    width: 150px;
+    height: auto;
+}
+
+/* Styling for both Chatbot and Logout buttons */
+.header-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.chatbot-button, .logout-button {
+    background-color: white;
+    color: #ff5733;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-left: 10px; /* Added space between buttons */
+}
+
+.chatbot-button:hover, .logout-button:hover {
+    background-color: #ffb7a5;
+}
+
+/* Body section */
+.chatbot-body {
+    padding: 30px;
+    background-color: #f5f5f5;
+    min-height: 500px;
+}
+
+h2 {
+    color: #ff5733;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+/* Form styles */
+#add-reminder-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fafafa;
+    outline: none;
+}
+
+.input-group textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+    border-color: #ff5733;
+}
+
+.add-button {
+    background-color: #ff5733;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+    background-color: #ff704d;
+}
+
+/* Reminders list section */
+.reminders-list {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reminders-list h3 {
+    color: #ff5733;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.reminders-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.reminders-list ul li {
+    background-color: #f9f9f9;
+    border-left: 4px solid #ff5733;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.reminders-list ul li strong {
+    font-size: 16px;
+    color: #333;
+}
+
+.reminders-list p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .chatbot-container {
+        padding: 0;
+        margin: 20px;
+    }
+
+    .header-buttons {
+        flex-direction: column; /* Stack buttons vertically on smaller screens */
+    }
+
+    .chatbot-button, .logout-button {
+        font-size: 14px;
+        padding: 8px 15px;
+        margin-left: 0;
+        margin-top: 10px; /* Add space between stacked buttons */
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .add-button {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .reminders-list h3 {
+        font-size: 20px;
+    }
+}

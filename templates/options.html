@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISLA University Options</title>
+    <link rel="stylesheet" href="static/option.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <style>
+        /* Modal styles */
+        .modal {
+            display: none; 
+            position: fixed; 
+            z-index: 1; 
+            left: 0;
+            top: 0;
+            width: 100%; 
+            height: 100%; 
+            background-color: rgba(0, 0, 0, 0.5); 
+        }
+        .modal-content {
+            background-color: white;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 300px;
+            text-align: center;
+            border-radius: 10px;
+            position: relative;
+        }
+        .modal-content h3 {
+            margin-bottom: 10px;
+        }
+        .close {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="chatbot-container">
+        <div class="chatbot-header">
+            <i class="fas fa-arrow-left back-button" onclick="window.location.href='/'"></i>
+            <img src="static/logo.png" alt="University Logo">
+        </div>
+        <div class="chatbot-body">
+            <div class="option" onclick="showInstructions('coursework-management', 'You can ask questions related to your courses, professors and etc.')">
+                <img src="static/coursework_icon.png" alt="Coursework Management">
+                <span>Coursework Management</span>
+            </div>
+            <div class="option" onclick="showInstructions('documents-portal', 'Access and download official university documents like transcripts and certificates.')">
+                <img src="static/absent_icon.png" alt="Documents Portal">
+                <span>Documents Portal</span>
+            </div>
+            <div class="option" onclick="showInstructions('questionsbot', 'Ask questions related to any university-related queries here.')">
+                <img src="static/qs.png" alt="Questions Bot">
+                <span>Questions Bot</span>
+            </div>
+            <div class="option" onclick="showInstructions('documentsbot', 'Submit requests for university documents or check the status of your document requests.')">
+                <img src="static/docs.png" alt="Documents Bot">
+                <span>Documents Bot</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for instructions -->
+    <div id="instructionModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeInstructions()">&times;</span>
+            <h3>Instructions</h3>
+            <p id="instructionText"></p>
+        </div>
+    </div>
+
+    <script>
+        let selectedPage = '';
+
+        function showInstructions(page, instructions) {
+            selectedPage = page;
+            document.getElementById('instructionText').innerText = instructions;
+            document.getElementById('instructionModal').style.display = 'block';
+        }
+
+        function closeInstructions() {
+            document.getElementById('instructionModal').style.display = 'none';
+            navigateTo(selectedPage);
+        }
+
+        function navigateTo(page) {
+            window.location.href = "/" + page;  
+        }
+
+        // Close the modal if the user clicks outside of it
+        window.onclick = function(event) {
+            const modal = document.getElementById('instructionModal');
+            if (event.target == modal) {
+                closeInstructions();
+            }
+        }
+    </script>
+</body>
+</html>

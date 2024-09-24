@@ -1,0 +1,292 @@
+{
+    "intents": [
+        {
+            "document_type": "transcript",
+            "location": "Student Affairs Department",
+            "additional_info": "You can request your transcript by visiting the Student Affairs Department or submitting an online request via the student portal. Processing time is typically 3-5 business days. You will be notified via email when it's ready for collection or download.",
+            "follow_up": {
+                "yes": "Great! You can submit your transcript request via the Student Portal. Make sure you have your student ID ready. If you face any issues, contact the Student Affairs Department at studentaffairs@isla.edu or call 223 772 980.",
+                "no": "If you prefer, you can visit the Student Affairs Department directly. Let me know if you'd like directions or more information."
+            }
+        },
+        {
+            "document_type": "certificate",
+            "location": "Registrar's Office",
+            "additional_info": "For graduation certificates, visit the Registrar's Office. You will need to provide your student ID and graduation confirmation. Certificates are typically available within 2 weeks after graduation.",
+            "follow_up": {
+                "yes": "You can request your graduation certificate through the student portal. Make sure to provide your student ID. For further details, feel free to contact the Registrar's Office directly.",
+                "no": "You can always visit the Registrar's Office in person if you'd prefer. Let me know if you need any help locating the office."
+            }
+        },
+        {
+            "document_type": "financial aid document",
+            "location": "Finance Office",
+            "additional_info": "Financial aid documents are handled by the Finance Office. You can request them via email or by visiting the office directly. Ensure that all required forms are submitted before the end of the semester for timely processing.",
+            "follow_up": {
+                "yes": "You can request your financial aid documents via email or by visiting the Finance Office. Make sure you submit all required forms in time.",
+                "no": "If you'd rather visit in person, feel free to drop by the Finance Office during business hours."
+            }
+        },
+        {
+            "document_type": "enrollment verification",
+            "location": "Admissions Office",
+            "additional_info": "Enrollment verification can be requested from the Admissions Office or through the student portal. This document confirms your current enrollment status and can be used for visa purposes, job applications, or further studies. Requests are processed within 1-2 business days.",
+            "follow_up": {
+                "yes": "You can submit your enrollment verification request online. It should be processed in 1-2 business days. Contact the Admissions Office if you need further assistance.",
+                "no": "If you prefer, you can visit the Admissions Office to request the enrollment verification in person."
+            }
+        },
+        {
+            "document_type": "graduation documents",
+            "location": "Graduation Office",
+            "additional_info": "Graduation documents such as diplomas are managed by the Graduation Office. Diplomas are typically available 4-6 weeks after the graduation ceremony. You will be notified when the document is ready for collection.",
+            "follow_up": {
+                "yes": "Once ready, you can collect your diploma from the Graduation Office. Keep an eye on your email for notifications.",
+                "no": "If you have any questions about your graduation documents, feel free to visit the Graduation Office."
+            }
+        },
+        {
+            "document_type": "registration document",
+            "location": "Registration Office",
+            "additional_info": "Registration documents are managed by the Registration Office. You will be notified when the document is ready for collection.",
+            "follow_up": {
+                "yes": "Once ready, you can collect your diploma from the Graduation Office. Keep an eye on your email for notifications.",
+                "no": "If you have any questions about your graduation documents, feel free to visit the Graduation Office."
+            }
+        },
+        {
+            "document_type": "student ID replacement",
+            "location": "Student Affairs Department",
+            "additional_info": "To replace a lost or damaged student ID, visit the Student Affairs Department with a valid photo ID. There may be a small replacement fee, which can be paid online or at the cashier's office.",
+            "follow_up": {
+                "yes": "You can visit the Student Affairs Department to request a replacement ID. Make sure to bring a valid photo ID. Fees can be paid online or at the cashier’s office.",
+                "no": "If you’d like more information about ID replacement, you can contact the Student Affairs Department."
+            }
+        },
+        {
+            "document_type": "academic probation letter",
+            "location": "Academic Advising Office",
+            "additional_info": "Students placed on academic probation will receive a probation letter from the Academic Advising Office. You can request a copy of this letter through the portal or by visiting the office directly.",
+            "follow_up": {
+                "yes": "You can request a copy of your academic probation letter via the student portal. For additional questions, contact the Academic Advising Office.",
+                "no": "You can also visit the Academic Advising Office in person if you'd like."
+            }
+        },
+        {
+            "document_type": "course completion certificate",
+            "location": "Registrar's Office",
+            "additional_info": "If you need a course completion certificate before the final diploma, you can request this from the Registrar's Office. This document certifies that you've completed all coursework for a specific program.",
+            "follow_up": {
+                "yes": "You can request your course completion certificate via the student portal. Let me know if you need further assistance with this.",
+                "no": "You can visit the Registrar's Office directly to request the certificate in person."
+            }
+        },
+        {
+            "document_type": "internship verification",
+            "location": "Career Services",
+            "additional_info": "Internship verification letters are issued by the Career Services Office. You can request this document once your internship supervisor has submitted your final evaluation.",
+            "follow_up": {
+                "yes": "You can request your internship verification letter after your internship supervisor submits the final evaluation. For more information, contact the Career Services Office.",
+                "no": "Feel free to visit the Career Services Office if you have more questions about internship verification."
+            }
+        },
+        {
+            "document_type": "fee payment receipt",
+            "location": "Finance Office",
+            "additional_info": "Fee payment receipts can be downloaded from the student portal. If you need an official stamped copy, visit the Finance Office during business hours.",
+            "follow_up": {
+                "yes": "You can download your fee payment receipt via the student portal. For a stamped copy, visit the Finance Office.",
+                "no": "If you prefer, you can visit the Finance Office during business hours to get your receipt."
+            }
+        },
+        {
+            "document_type": "scholarship confirmation",
+            "location": "Scholarship Office",
+            "additional_info": "Scholarship confirmation letters are issued by the Scholarship Office. These documents confirm your eligibility and award details and can be used for financial aid verification.",
+            "follow_up": {
+                "yes": "You can request your scholarship confirmation letter via the Scholarship Office. Contact them if you have any further questions.",
+                "no": "You can also visit the Scholarship Office if you need more details."
+            }
+        },
+        {
+            "document_type": "visa letter",
+            "location": "International Office",
+            "additional_info": "Visa support letters for international students are handled by the International Office. These letters confirm your enrollment and are typically required for visa applications or renewals. Requests are processed within 2-3 business days.",
+            "follow_up": {
+                "yes": "You can request a visa letter through the International Office. It typically takes 2-3 business days to process.",
+                "no": "If you need more information, feel free to visit the International Office for assistance."
+            }
+        },
+        {
+            "document_type": "health insurance card",
+            "location": "Student Health Services",
+            "additional_info": "Health insurance cards are issued by Student Health Services. If you need a replacement card, you can request it online or by visiting the Health Services Office.",
+            "follow_up": {
+                "yes": "You can request a replacement health insurance card online or by visiting Student Health Services.",
+                "no": "You can always contact Student Health Services directly if you need more help with your health insurance."
+            }
+        },
+        {
+            "document_type": "academic appeal form",
+            "location": "Academic Advising Office",
+            "additional_info": "If you wish to appeal a grade or academic decision, you must complete an academic appeal form. This form can be downloaded from the student portal and submitted to the Academic Advising Office within 30 days of receiving the grade.",
+            "follow_up": {
+                "yes": "You can download the academic appeal form from the student portal. For more information, contact the Academic Advising Office.",
+                "no": "You can visit the Academic Advising Office for help with the appeal process."
+            }
+        },
+        {
+            "document_type": "disciplinary action notice",
+            "location": "Student Affairs Department",
+            "additional_info": "Disciplinary action notices are issued by the Student Affairs Department. If you need a copy of your notice, you can request it by contacting the office directly. All records are confidential.",
+            "follow_up": {
+                "yes": "You can request a copy of your disciplinary action notice from the Student Affairs Department. All records are kept confidential.",
+                "no": "If you'd prefer, you can contact the Student Affairs Department directly for more details."
+            }
+        },
+        {
+            "document_type": "residency verification",
+            "location": "Admissions Office",
+            "additional_info": "Residency verification letters are handled by the Admissions Office. These letters confirm your residency status for tuition purposes or other legal requirements.",
+            "follow_up": {
+                "yes": "You can request a residency verification letter via the Admissions Office. Contact them for more details.",
+                "no": "You can visit the Admissions Office in person if you need more information."
+            }
+        },
+        {
+            "document_type": "research participation confirmation",
+            "location": "Research Office",
+            "additional_info": "If you've participated in university research and need a confirmation letter, you can request this from the Research Office. This document verifies your contribution to the research study.",
+            "follow_up": {
+                "yes": "You can request a research participation confirmation letter from the Research Office.",
+                "no": "Feel free to visit the Research Office if you have any more questions about your participation."
+            }
+        },
+        {
+            "document_type": "letter of recommendation request",
+            "location": "Faculty Office",
+            "additional_info": "Letters of recommendation are typically requested from faculty members. You should contact the Faculty Office to confirm the process and request a letter at least 2 weeks in advance.",
+            "follow_up": {
+                "yes": "You can request your letter of recommendation by contacting the Faculty Office. Be sure to give at least 2 weeks' notice.",
+                "no": "You can visit the Faculty Office for more help with your letter of recommendation request."
+            }
+        },
+        {
+            "document_type": "student housing application",
+            "location": "Housing Office",
+            "additional_info": "Student housing applications and contracts are managed by the Housing Office. If you need a copy of your housing contract or proof of residency, contact the office directly.",
+            "follow_up": {
+                "yes": "You can submit your student housing application through the Housing Office. Let me know if you need more information.",
+                "no": "If you'd like, you can visit the Housing Office in person for further assistance with your housing application."
+            }
+        },
+        {
+            "document_type": "enrollment/registration certificate",
+            "location": "Admissions Office",
+            "additional_info": "Proof that a student is officially enrolled in the university for a specific academic term. You can request this from the Admissions Office or through the student portal.",
+            "follow_up": {
+                "yes": "You can request your enrollment or registration certificate online via the student portal or at the Admissions Office.",
+                "no": "You may also request the certificate in person at the Admissions Office if preferred."
+            }
+        },
+        {
+            "document_type": "diploma/graduation certificate",
+            "location": "Graduation Office",
+            "additional_info": "Issued upon completion of a degree program, certifying that the student has successfully graduated. The diploma is available after 4-6 weeks post-graduation.",
+            "follow_up": {
+                "yes": "You will be notified when your diploma or graduation certificate is ready for collection at the Graduation Office.",
+                "no": "You can contact the Graduation Office if you need more details."
+            }
+        },
+        {
+            "document_type": "attendance certificate",
+            "location": "Student Affairs Department",
+            "additional_info": "Proof of attendance, often required by employers or immigration authorities. Available upon request from the Student Affairs Department.",
+            "follow_up": {
+                "yes": "You can request an attendance certificate from the Student Affairs Department.",
+                "no": "You can visit the Student Affairs Department for more details."
+            }
+        },
+        {
+            "document_type": "course syllabus or program description",
+            "location": "Academic Department",
+            "additional_info": "Detailed descriptions of courses or programs taken, often requested for credit transfers or international education applications. Request this from the Academic Department.",
+            "follow_up": {
+                "yes": "You can request the course syllabus or program description from the Academic Department.",
+                "no": "Feel free to visit the Academic Department if you need more information."
+            }
+        },
+        {
+            "document_type": "financial aid or scholarship documentation",
+            "location": "Scholarship Office",
+            "additional_info": "Information about scholarships, grants, or other financial support provided to the student. Available upon request from the Scholarship Office.",
+            "follow_up": {
+                "yes": "You can request your financial aid or scholarship documentation from the Scholarship Office.",
+                "no": "Visit the Scholarship Office if you need more details about your financial aid or scholarship."
+            }
+        },
+        {
+            "document_type": "internship agreement forms",
+            "location": "Career Services",
+            "additional_info": "Documents that detail internship terms and conditions, often requested by students who need university approval for internship placements.",
+            "follow_up": {
+                "yes": "You can request internship agreement forms from Career Services once you have secured an internship.",
+                "no": "Visit Career Services for more details about internship placements and agreements."
+            }
+        },
+        {
+            "document_type": "tuition payment receipt",
+            "location": "Finance Office",
+            "additional_info": "Official receipts for tuition payments, sometimes required for tax purposes or employer reimbursements. You can request this from the Finance Office or download it from the student portal.",
+            "follow_up": {
+                "yes": "You can download your tuition payment receipt from the student portal, or request it from the Finance Office.",
+                "no": "You can visit the Finance Office in person for more details."
+            }
+        },
+        {
+            "document_type": "proof of english or portuguese language proficiency",
+            "location": "Language Center",
+            "additional_info": "For international students, documents certifying their language proficiency level. You can request this from the Language Center.",
+            "follow_up": {
+                "yes": "You can request a language proficiency certificate from the Language Center.",
+                "no": "Visit the Language Center if you need more details about your language proficiency."
+            }
+        },
+        {
+            "document_type": "examination results or certificate",
+            "location": "Examination Office",
+            "additional_info": "Official confirmation of exam outcomes, either for internal use or for submitting to external bodies. Available upon request from the Examination Office.",
+            "follow_up": {
+                "yes": "You can request your examination results or certificate from the Examination Office.",
+                "no": "Visit the Examination Office for more details about your exam results."
+            }
+        },
+        {
+            "document_type": "change of course request form",
+            "location": "Academic Advising Office",
+            "additional_info": "If students wish to change their course or program of study, they may need a formal document to initiate the process.",
+            "follow_up": {
+                "yes": "You can request a change of course form from the Academic Advising Office.",
+                "no": "Visit the Academic Advising Office for more details about changing your course."
+            }
+        },
+        {
+            "document_type": "request for academic leave or interruption",
+            "location": "Student Affairs Department",
+            "additional_info": "Official forms or letters to apply for a temporary break from studies due to personal or professional reasons.",
+            "follow_up": {
+                "yes": "You can request a form for academic leave from the Student Affairs Department.",
+                "no": "Visit the Student Affairs Department for more information about taking academic leave."
+            }
+        },
+        {
+            "document_type": "visa support letter",
+            "location": "International Office",
+            "additional_info": "For international students, universities often provide a letter supporting visa renewal or application. Available upon request from the International Office.",
+            "follow_up": {
+                "yes": "You can request a visa support letter from the International Office.",
+                "no": "Visit the International Office if you need more details."
+            }
+        }
+    ]
+}

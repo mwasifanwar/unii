@@ -1,0 +1,8 @@
+{
+    "welcome": "Hello {name}, welcome to ISLA University! How can I assist you today?",
+    "course_information": "You're enrolled in the following courses: {courses}",
+    "assignment_due": "The next assignment due for {course} is on {due_date}.",
+    "submission_deadline": "The submission deadline for {assignment} in {course} is {deadline}.",
+    "default": "I'm sorry, I didn't understand that."
+}
+  

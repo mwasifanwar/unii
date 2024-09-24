@@ -1,0 +1,1653 @@
+{
+    "intents": [
+      {
+        "id": "home_message_from_president_01",
+        "question": "What is the message from the President of ISLA University?",
+        "response": "ISLA - Polytechnic Institute of Management and Technology celebrates 34 years of existence. The President, Prof. Doutor António Lencastre Godinho, emphasizes the importance of education in today's challenging times and highlights the growth and success of the institution over the years. He welcomes students and staff to a new academic year and encourages collaboration and commitment to further strengthen ISLA's image."
+      },
+      {
+        "id": "home_general_information_02",
+        "question": "Can you provide general information about ISLA University?",
+        "response": "ISLA - Polytechnic Institute of Management and Technology, founded in 1989, is part of the largest Portuguese Group of Private Higher Education. It offers a range of courses and has seen continuous growth in both the number of courses and student enrollments."
+      },
+      {
+        "id": "vision_statement_03",
+        "question": "What is the vision of ISLA University?",
+        "response": "The vision of ISLA-IPGT is to be a leader in polytechnic higher education in Portugal, expanding and deepening the legacy of human knowledge and placing the student at the center of learning."
+      },
+      {
+        "id": "mission_statement_04",
+        "question": "What is the mission of ISLA University?",
+        "response": "ISLA-IPGT's mission is to develop an education based on skill acquisition, actively participating in the national education system, promoting scientific and technological research, and providing community services."
+      },
+      {
+        "id": "values_05",
+        "question": "What values does ISLA University uphold?",
+        "response": "ISLA-IPGT values include Quality, Innovation, Responsibility, and a Critical and Cooperative Spirit, focusing on meeting student and stakeholder expectations, promoting creativity, and maintaining ethical behavior."
+      },
+      {
+        "id": "organization_overview_06",
+        "question": "How is ISLA University organized?",
+        "response": "ISLA-IPGT has two organic units of teaching, known as Superior Schools, and one research unit. The main bodies include the President, Administrator, and General Council, with specific roles and responsibilities across the institution."
+      },
+      {
+        "id": "school_management_details_07",
+        "question": "What can you tell me about the School of Management at ISLA University?",
+        "response": "The School of Management at ISLA-IPGT enjoys scientific and pedagogical autonomy and is led by Director Carlos Miguel Fernandes Oliveira. The school's Technical and Scientific Council guides its scientific policy."
+      },
+      {
+        "id": "school_technology_details_08",
+        "question": "What can you tell me about the School of Technology at ISLA University?",
+        "response": "The School of Technology at ISLA-IPGT is managed by Director Jose Joaquim Magalhães Moreira. The school's Technical and Scientific Council is responsible for guiding its scientific policy."
+      },
+      {
+        "id": "research_centre_overview_09",
+        "question": "What is the role of the Research Centre at ISLA University?",
+        "response": "The Research Centre at ISLA-IPGT is dedicated to developing research across different areas of knowledge, coordinating and supporting various research projects within the institution."
+      },
+      {
+        "id": "director_research_centre_10",
+        "question": "Who is the Director of the Research Centre at ISLA University?",
+        "response": "The Director of the Research Centre at ISLA-IPGT is Firmino Oliveira da Silva, who leads the center's research efforts."
+      },
+      {
+        "id": "installations_information_11",
+        "question": "Where is ISLA-Gaia located, and what facilities does it offer?",
+        "response": "ISLA-Gaia is located at Rua Diogo Macedo, nº 192 | 4400-107 Vila Nova de Gaia. The building covers a total area of 6,700 m2 and is suitably adapted for teaching with modern facilities."
+      },
+      {
+        "id": "quality_management_system_overview_12",
+        "question": "What is the Quality Management System at ISLA University?",
+        "response": "ISLA-Gaia's Quality Management System is based on the PDCA cycle, focusing on continuous improvement and excellence in all activities. It ensures systematic and shared methods to enhance quality across the institution."
+      },
+      {
+        "id": "quality_policy_principles_13",
+        "question": "What are the principles of the Quality Policy at ISLA University?",
+        "response": "The Quality Policy at ISLA-Gaia is based on principles like the pursuit of excellence, continuous evaluation, and a joint quality culture involving students, staff, and external stakeholders."
+      },
+      {
+        "id": "faculty_list_14",
+        "question": "Who are the faculty members at ISLA University for the 2023/24 academic year?",
+        "response": "The faculty at ISLA includes distinguished members like Acacio Lopes Silva Amorim, Alberto Manuel Correia dos Santos Silveira, Alexandra Maria de Almeida Matos Pereira, and many others across various disciplines."
+      },
+      {
+        "id": "contact_quality_management_15",
+        "question": "Who should I contact regarding the Quality Management System?",
+        "response": "For inquiries about the Quality Management System at ISLA-Gaia, you can contact Rosária Silva or Daniela Braga at qualidade@islagaia.pt."
+      },
+      {
+        "id": "school_management_director_16",
+        "question": "Who is the Director of the School of Management?",
+        "response": "The Director of the School of Management at ISLA-IPGT is Carlos Miguel Fernandes Oliveira."
+      },
+      {
+        "id": "school_technology_director_17",
+        "question": "Who is the Director of the School of Technology?",
+        "response": "The Director of the School of Technology at ISLA-IPGT is Jose Joaquim Magalhães Moreira."
+      },
+      {
+        "id": "scientific_technical_council_18",
+        "question": "What is the role of the Scientific-Technical Council at ISLA University?",
+        "response": "The Scientific-Technical Council at ISLA-IPGT guides the scientific policy in teaching, research, and cultural extension for the School of Management and School of Technology."
+      },
+      {
+        "id": "pedagogical_council_19",
+        "question": "What does the Pedagogical Council do at ISLA University?",
+        "response": "The Pedagogical Council at ISLA-IPGT studies and assesses the guidelines, methods, acts, and results of teaching and learning activities to ensure the smooth running of study cycles."
+      },
+      {
+        "id": "student_ombudsman_role_20",
+        "question": "What is the role of the Student Ombudsman at ISLA University?",
+        "response": "The Student Ombudsman at ISLA-IPGT, currently Carla Palmira Aguiar Santos Pedrosa, is responsible for addressing student concerns and ensuring their rights are upheld within the institution."
+      },
+      {
+        "id": "research_unit_director_21",
+        "question": "Who is the Director of the Research Unit at ISLA University?",
+        "response": "The Director of the Research Unit at ISLA-IPGT is Firmino Oliveira da Silva."
+      },
+      {
+        "id": "library_director_22",
+        "question": "Who is the Director of the General Library at ISLA University?",
+        "response": "The Director of the General Library at ISLA-IPGT is Alberto Silva e Costa."
+      },
+      {
+        "id": "students_association_president_23",
+        "question": "Who is the President of the Students' Association at ISLA University?",
+        "response": "The President of the Students' Association at ISLA-IPGT is Diogo Filipe Machado Bravo."
+      },
+      {
+        "id": "alumni_president_24",
+        "question": "Who is the President of ALUMNI at ISLA University?",
+        "response": "The President of ALUMNI at ISLA-IPGT is Nuno Ricardo Matthew Coelho."
+      },
+      {
+        "id": "academic_year_start_25",
+        "question": "When does the academic year start at ISLA University?",
+        "response": "The academic year at ISLA-IPGT starts in September, marking a new beginning for both new and returning students, as well as faculty and staff."
+      },
+      {
+        "id": "courses_offered_26",
+        "question": "What courses are offered at ISLA University?",
+        "response": "ISLA-IPGT offers a variety of courses across different disciplines, including Business Management, Human Resources Management, Tourism Management, Digital Communication, Web Technologies, and more."
+      },
+      {
+        "id": "new_courses_27",
+        "question": "Are there any new courses offered at ISLA University?",
+        "response": "Yes, ISLA-IPGT continuously expands its course offerings to meet the evolving needs of students and the job market. For the latest information, please visit the course catalog on the university's website."
+      },
+      {
+        "id": "student_enrollment_28",
+        "question": "How can I enroll as a student at ISLA University?",
+        "response": "To enroll at ISLA-IPGT, prospective students should visit the university's admissions page, complete the online application form, and submit the required documents."
+      },
+      {
+        "id": "tuition_fees_29",
+        "question": "What are the tuition fees for studying at ISLA University?",
+        "response": "Tuition fees at ISLA-IPGT vary depending on the course and level of study. For detailed information, please refer to the fees section on the university's website."
+      },
+      {
+        "id": "scholarships_30",
+        "question": "Are there any scholarships available at ISLA University?",
+        "response": "Yes, ISLA-IPGT offers various scholarships to eligible students based on academic merit, financial need, and other criteria. For more information, visit the scholarships section on the university's website."
+      },
+      {
+        "id": "international_students_31",
+        "question": "Does ISLA University accept international students?",
+        "response": "Yes, ISLA-IPGT welcomes international students from around the world. The university provides support for international students, including assistance with visas, accommodation, and orientation."
+      },
+      {
+        "id": "accommodation_options_32",
+        "question": "What accommodation options are available for students at ISLA University?",
+        "response": "ISLA-IPGT offers various accommodation options for students, including on-campus housing and assistance in finding off-campus accommodations. Please contact the Student Services Office for more details."
+      },
+      {
+        "id": "student_services_33",
+        "question": "What student services are available at ISLA University?",
+        "response": "ISLA-IPGT provides a range of student services, including academic advising, career counseling, health services, and extracurricular activities. The Student Services Office is available to assist students with their needs."
+      },
+      {
+        "id": "library_facilities_34",
+        "question": "What are the library facilities like at ISLA University?",
+        "response": "The General Library at ISLA-IPGT offers a vast collection of academic resources, study spaces, and access to digital databases. It is managed by Director Alberto Silva e Costa and provides essential support for students' academic needs."
+      },
+      {
+        "id": "research_opportunities_35",
+        "question": "What research opportunities are available at ISLA University?",
+        "response": "ISLA-IPGT offers various research opportunities through its Research Centre and collaboration with international networks. Students can participate in research projects and gain valuable experience in their field of study."
+      },
+      {
+        "id": "student_clubs_36",
+        "question": "Are there any student clubs or organizations at ISLA University?",
+        "response": "Yes, ISLA-IPGT has a variety of student clubs and organizations that cater to different interests, including academic, cultural, and recreational activities. Students are encouraged to join and participate actively."
+      },
+      {
+        "id": "alumni_network_37",
+        "question": "What is the alumni network like at ISLA University?",
+        "response": "ISLA-IPGT has a strong alumni network, led by ALUMNI President Nuno Ricardo Matthew Coelho. The network provides support, networking opportunities, and engagement activities for graduates."
+      },
+      {
+        "id": "continuing_education_38",
+        "question": "Does ISLA University offer continuing education programs?",
+        "response": "Yes, ISLA-IPGT offers continuing education programs, including Post-Graduation, Masters, and PhD levels, designed to help professionals advance their careers and gain new skills."
+      },
+      {
+        "id": "career_services_39",
+        "question": "What career services are available at ISLA University?",
+        "response": "ISLA-IPGT provides comprehensive career services, including job placement assistance, resume workshops, and career counseling to help students and graduates succeed in the job market."
+      },
+      {
+        "id": "online_courses_40",
+        "question": "Are there any online courses available at ISLA University?",
+        "response": "Yes, ISLA-IPGT offers a range of online courses and programs, allowing students to study remotely and at their own pace. For more information, visit the online learning section on the university's website."
+      },
+      {
+        "id": "financial_aid_41",
+        "question": "What financial aid options are available at ISLA University?",
+        "response": "ISLA-IPGT offers various financial aid options, including scholarships, grants, and payment plans, to assist students in funding their education. For details, visit the financial aid section on the university's website."
+      },
+      {
+        "id": "student_handbook_42",
+        "question": "Where can I find the student handbook for ISLA University?",
+        "response": "The student handbook is available on the ISLA-IPGT website, providing important information on university policies, procedures, and resources for students."
+      },
+      {
+        "id": "academic_calendar_43",
+        "question": "Where can I view the academic calendar for ISLA University?",
+        "response": "The academic calendar for ISLA-IPGT can be viewed on the university's website, detailing important dates such as the start of the academic year, exam periods, and holidays."
+      },
+      {
+        "id": "transcripts_request_44",
+        "question": "How can I request my transcripts from ISLA University?",
+        "response": "To request your transcripts from ISLA-IPGT, you can fill out the transcript request form available on the university's website or contact the Registrar's Office directly."
+      },
+      {
+        "id": "graduation_requirements_45",
+        "question": "What are the graduation requirements at ISLA University?",
+        "response": "Graduation requirements at ISLA-IPGT vary depending on the program. Generally, students must complete all required courses, achieve a minimum GPA, and fulfill any additional program-specific criteria."
+      },
+      {
+        "id": "student_id_card_46",
+        "question": "How can I get my student ID card at ISLA University?",
+        "response": "To obtain your student ID card at ISLA-IPGT, visit the Student Services Office with your enrollment confirmation and a valid photo ID."
+      },
+      {
+        "id": "extracurricular_activities_47",
+        "question": "What extracurricular activities are available at ISLA University?",
+        "response": "ISLA-IPGT offers a wide range of extracurricular activities, including sports, cultural events, and student clubs. Students are encouraged to participate and enhance their university experience."
+      },
+      {
+        "id": "faculty_contact_48",
+        "question": "How can I contact my professors at ISLA University?",
+        "response": "You can contact your professors at ISLA-IPGT via email or during their office hours. Faculty contact information is available on the university's website or through the Student Portal."
+      },
+      {
+        "id": "student_portal_49",
+        "question": "How do I access the Student Portal at ISLA University?",
+        "response": "The Student Portal at ISLA-IPGT can be accessed through the university's website. Students can log in using their student ID and password to view grades, schedules, and other important information."
+      },
+      {
+        "id": "academic_advising_50",
+        "question": "What academic advising services are available at ISLA University?",
+        "response": "ISLA-IPGT offers academic advising services to help students plan their course schedules, choose majors, and navigate their academic journey. Advising appointments can be made through the Student Services Office."
+      },
+      {
+        "id": "study_abroad_51",
+        "question": "Does ISLA University offer study abroad programs?",
+        "response": "Yes, ISLA-IPGT offers study abroad programs in partnership with international universities. These programs provide students with opportunities to gain global experience and enhance their education."
+      },
+      {
+        "id": "student_employment_52",
+        "question": "Are there any student employment opportunities at ISLA University?",
+        "response": "ISLA-IPGT offers various student employment opportunities, including on-campus jobs and internships. For more information, visit the Career Services Office."
+      },
+      {
+        "id": "internship_programs_53",
+        "question": "Does ISLA University offer internship programs?",
+        "response": "Yes, ISLA-IPGT offers internship programs that allow students to gain hands-on experience in their field of study. Internships are available through various departments and in collaboration with industry partners."
+      },
+      {
+        "id": "academic_honors_54",
+        "question": "What academic honors are available at ISLA University?",
+        "response": "ISLA-IPGT recognizes academic excellence through various honors and awards, including Dean's List, academic scholarships, and graduation honors."
+      },
+      {
+        "id": "research_funding_55",
+        "question": "How can I apply for research funding at ISLA University?",
+        "response": "Students and faculty at ISLA-IPGT can apply for research funding through the Research Centre. Applications are reviewed based on the project's merit and alignment with the university's research priorities."
+      },
+      {
+        "id": "student_health_services_56",
+        "question": "What health services are available for students at ISLA University?",
+        "response": "ISLA-IPGT offers health services to students, including medical consultations, mental health support, and wellness programs. The Student Health Center is available for appointments and walk-ins."
+      },
+      {
+        "id": "student_code_conduct_57",
+        "question": "Where can I find the Student Code of Conduct for ISLA University?",
+        "response": "The Student Code of Conduct is available on the ISLA-IPGT website and outlines the expectations for student behavior, academic integrity, and community standards."
+      },
+      {
+        "id": "technology_services_58",
+        "question": "What technology services are available at ISLA University?",
+        "response": "ISLA-IPGT provides technology services, including campus Wi-Fi, computer labs, and IT support. Students can also access online learning platforms and digital resources through the university's IT Services."
+      },
+      {
+        "id": "online_learning_platforms_59",
+        "question": "What online learning platforms does ISLA University use?",
+        "response": "ISLA-IPGT uses various online learning platforms, including Moodle and Google Classroom, to facilitate remote learning and provide students with access to course materials and assignments."
+      },
+      {
+        "id": "campus_security_60",
+        "question": "What security measures are in place on the ISLA University campus?",
+        "response": "ISLA-IPGT ensures campus security through 24/7 surveillance, on-site security personnel, and emergency response systems. Students are encouraged to report any security concerns to Campus Security."
+      },
+      {
+        "id": "emergency_contacts_61",
+        "question": "Who should I contact in case of an emergency at ISLA University?",
+        "response": "In case of an emergency at ISLA-IPGT, students should contact Campus Security or the nearest emergency services. Emergency contact numbers are provided on the university's website and student handbook."
+      },
+      {
+        "id": "faculty_directory_62",
+        "question": "Where can I find the faculty directory for ISLA University?",
+        "response": "The faculty directory for ISLA-IPGT is available on the university's website, providing contact information and office hours for all faculty members."
+      },
+      {
+        "id": "research_publications_63",
+        "question": "How can I access research publications from ISLA University?",
+        "response": "Research publications from ISLA-IPGT are available through the university's library and online databases. Students and faculty can also access research journals and papers through the Research Centre."
+      },
+      {
+        "id": "faculty_office_hours_64",
+        "question": "How can I find out the office hours of my professors at ISLA University?",
+        "response": "Faculty office hours are posted on the ISLA-IPGT website and are also available through the Student Portal. Students can schedule appointments with their professors during these hours."
+      },
+      {
+        "id": "library_resources_65",
+        "question": "What resources are available at the ISLA University library?",
+        "response": "The ISLA-IPGT library offers a wide range of resources, including books, academic journals, digital databases, and study spaces. It also provides access to research support and academic resources."
+      },
+      {
+        "id": "graduation_ceremony_66",
+        "question": "When is the graduation ceremony held at ISLA University?",
+        "response": "The graduation ceremony at ISLA-IPGT is held annually at the end of the academic year. Specific dates and details are announced on the university's website closer to the event."
+      },
+      {
+        "id": "student_government_67",
+        "question": "What is the role of the Student Government at ISLA University?",
+        "response": "The Student Government at ISLA-IPGT represents the student body, advocating for student needs and organizing events and activities. It works closely with the administration to enhance the student experience."
+      },
+      {
+        "id": "financial_services_68",
+        "question": "What financial services are available for students at ISLA University?",
+        "response": "ISLA-IPGT offers financial services, including tuition payment plans, scholarships, and financial aid counseling. The Financial Services Office is available to assist students with any financial-related inquiries."
+      },
+      {
+        "id": "campus_map_69",
+        "question": "Where can I find a map of the ISLA University campus?",
+        "response": "A map of the ISLA-IPGT campus is available on the university's website, showing the locations of buildings, facilities, and services across the campus."
+      },
+      {
+        "id": "student_union_70",
+        "question": "What is the role of the Student Union at ISLA University?",
+        "response": "The Student Union at ISLA-IPGT provides a platform for students to voice their concerns, participate in university governance, and engage in social and cultural activities. It is a key part of student life on campus."
+      },
+      {
+        "id": "student_advisor_71",
+        "question": "How can I contact my student advisor at ISLA University?",
+        "response": "You can contact your student advisor at ISLA-IPGT through the Student Portal or by visiting the Student Services Office. Advisors are available to assist with academic planning and personal guidance."
+      },
+      {
+        "id": "campus_events_72",
+        "question": "How can I find out about upcoming events at ISLA University?",
+        "response": "Upcoming events at ISLA-IPGT are posted on the university's website and social media channels. Students can also receive event updates through the Student Portal and email notifications."
+      },
+      {
+        "id": "volunteer_opportunities_73",
+        "question": "Are there any volunteer opportunities available for students at ISLA University?",
+        "response": "Yes, ISLA-IPGT offers various volunteer opportunities for students to get involved in the community, develop skills, and gain experience. Information on current opportunities can be found through the Student Services Office."
+      },
+      {
+        "id": "technical_support_74",
+        "question": "How can I get technical support at ISLA University?",
+        "response": "Technical support at ISLA-IPGT is available through the IT Services department. Students can submit a support ticket online or visit the IT Help Desk on campus for assistance."
+      },
+      {
+        "id": "campus_dining_75",
+        "question": "What dining options are available on the ISLA University campus?",
+        "response": "ISLA-IPGT offers a variety of dining options on campus, including cafeterias, snack bars, and vending machines. These facilities provide meals, snacks, and beverages for students and staff."
+      },
+      {
+        "id": "academic_integrity_policy_76",
+        "question": "What is the academic integrity policy at ISLA University?",
+        "response": "The academic integrity policy at ISLA-IPGT emphasizes the importance of honesty, fairness, and responsibility in all academic work. Students are expected to adhere to the highest standards of academic conduct."
+      },
+      {
+        "id": "course_catalog_77",
+        "question": "Where can I find the course catalog for ISLA University?",
+        "response": "The course catalog for ISLA-IPGT is available on the university's website, providing detailed information on all available courses, including descriptions, prerequisites, and credits."
+      },
+      {
+        "id": "student_emergency_fund_78",
+        "question": "Is there a student emergency fund at ISLA University?",
+        "response": "Yes, ISLA-IPGT offers a student emergency fund to provide financial assistance to students facing unexpected hardships. Applications for emergency funds can be made through the Financial Services Office."
+      },
+      {
+        "id": "student_wellness_programs_79",
+        "question": "What wellness programs are available for students at ISLA University?",
+        "response": "ISLA-IPGT offers wellness programs that include mental health support, fitness activities, and stress management workshops. The Student Wellness Center provides resources to help students maintain their well-being."
+      },
+      {
+        "id": "academic_support_services_80",
+        "question": "What academic support services are available at ISLA University?",
+        "response": "ISLA-IPGT provides academic support services, including tutoring, writing assistance, and study skills workshops. These services are designed to help students succeed academically."
+      },
+      {
+        "id": "graduation_application_81",
+        "question": "How do I apply for graduation at ISLA University?",
+        "response": "To apply for graduation at ISLA-IPGT, students must complete the graduation application form available on the university's website and submit it to the Registrar's Office by the specified deadline."
+      },
+      {
+        "id": "internship_requirements_82",
+        "question": "What are the requirements for internships at ISLA University?",
+        "response": "Internship requirements at ISLA-IPGT vary by program but generally include completing a certain number of credit hours, maintaining a minimum GPA, and receiving approval from the program coordinator."
+      },
+      {
+        "id": "student_complaints_83",
+        "question": "How can I file a student complaint at ISLA University?",
+        "response": "Students at ISLA-IPGT can file complaints through the Student Services Office or the Student Ombudsman. The university has a formal process for addressing and resolving student complaints."
+      },
+      {
+        "id": "financial_aid_deadlines_84",
+        "question": "What are the deadlines for applying for financial aid at ISLA University?",
+        "response": "Financial aid application deadlines at ISLA-IPGT are posted on the university's website. Students are encouraged to apply early to ensure they receive the maximum available funding."
+      },
+      {
+        "id": "academic_transfers_85",
+        "question": "How can I transfer my academic credits to ISLA University?",
+        "response": "To transfer academic credits to ISLA-IPGT, students must submit their transcripts for evaluation. The university's Registrar's Office will review the credits and determine their transferability."
+      },
+      {
+        "id": "parking_information_86",
+        "question": "What are the parking options on the ISLA University campus?",
+        "response": "ISLA-IPGT offers parking options for students, faculty, and visitors. Parking permits are required and can be obtained from the Campus Security Office."
+      },
+      {
+        "id": "study_resources_87",
+        "question": "What study resources are available at ISLA University?",
+        "response": "ISLA-IPGT provides a variety of study resources, including study spaces, online databases, and academic support services. The library and Student Services Office can help students access these resources."
+      },
+      {
+        "id": "class_schedules_88",
+        "question": "Where can I find my class schedule at ISLA University?",
+        "response": "Class schedules for ISLA-IPGT students are available through the Student Portal. Students can log in to view their schedules, including class times, locations, and instructors."
+      },
+      {
+        "id": "emergency_preparedness_89",
+        "question": "What emergency preparedness measures are in place at ISLA University?",
+        "response": "ISLA-IPGT has emergency preparedness measures in place, including evacuation plans, emergency alerts, and training programs. Students are encouraged to familiarize themselves with these procedures."
+      },
+      {
+        "id": "student_success_programs_90",
+        "question": "What programs are in place to support student success at ISLA University?",
+        "response": "ISLA-IPGT offers programs to support student success, including academic advising, tutoring, mentorship, and career services. These programs are designed to help students achieve their academic and professional goals."
+      },
+      {
+        "id": "campus_tours_91",
+        "question": "How can I schedule a campus tour at ISLA University?",
+        "response": "To schedule a campus tour at ISLA-IPGT, students and prospective students can contact the Admissions Office or register online through the university's website."
+      },
+      {
+        "id": "faculty_research_92",
+        "question": "What research projects are faculty at ISLA University involved in?",
+        "response": "Faculty at ISLA-IPGT are involved in a wide range of research projects across various disciplines. Information on current research projects can be found on the Research Centre's webpage."
+      },
+      {
+        "id": "student_awards_93",
+        "question": "What awards are available for students at ISLA University?",
+        "response": "ISLA-IPGT offers various awards to recognize student achievements in academics, research, and extracurricular activities. Award details and application information are available through the Student Services Office."
+      },
+      {
+        "id": "technology_requirements_94",
+        "question": "What technology requirements are there for students at ISLA University?",
+        "response": "ISLA-IPGT requires students to have access to a computer with internet connectivity for online learning and assignments. Specific technology requirements for courses are provided by instructors at the beginning of the semester."
+      },
+      {
+        "id": "student_surveys_95",
+        "question": "How can I participate in student surveys at ISLA University?",
+        "response": "ISLA-IPGT regularly conducts student surveys to gather feedback on academic and student life. Students are encouraged to participate and can find survey links through the Student Portal or university email."
+      },
+      {
+        "id": "housing_assistance_96",
+        "question": "How can I get assistance with housing at ISLA University?",
+        "response": "ISLA-IPGT provides assistance with finding on-campus and off-campus housing. The Student Services Office can help students explore their options and secure suitable accommodation."
+      },
+      {
+        "id": "student_orientation_97",
+        "question": "What is the student orientation process at ISLA University?",
+        "response": "The student orientation process at ISLA-IPGT includes a series of sessions designed to introduce new students to campus life, academic expectations, and available resources. Orientation schedules are provided upon enrollment."
+      },
+      {
+        "id": "student_development_programs_98",
+        "question": "What student development programs are offered at ISLA University?",
+        "response": "ISLA-IPGT offers student development programs that focus on leadership, communication, and professional skills. These programs are designed to help students develop competencies for success beyond the classroom."
+      },
+      {
+        "id": "academic_resources_99",
+        "question": "What academic resources are available at ISLA University?",
+        "response": "Academic resources at ISLA-IPGT include the library, tutoring services, online databases, and academic advising. These resources are available to support students in their studies."
+      },
+      {
+        "id": "campus_accessibility_100",
+        "question": "Is the ISLA University campus accessible for students with disabilities?",
+        "response": "Yes, ISLA-IPGT is committed to providing an accessible campus for all students. Facilities are equipped with ramps, elevators, and accessible restrooms. The Student Services Office can assist with additional accessibility needs."
+      },
+      {
+        "id": "courses_overview_101",
+        "question": "What types of courses are offered at ISLA University?",
+        "response": "ISLA University offers a variety of courses, including Undergraduate, Master's Degrees, Post-Graduate programs, Micro-credentials, and specialized courses. Each program is designed to meet the diverse needs of students and the job market."
+      },
+      {
+        "id": "undergraduate_courses_list_102",
+        "question": "What Undergraduate courses are available at ISLA University?",
+        "response": "ISLA University offers a range of Undergraduate courses, including Business Management, Computer Science for Electronic Commerce, Digital Communication, Human Resources Management, Informatics Engineering, Multimedia, Occupational Safety Engineering, and Tourism Management."
+      },
+      {
+        "id": "business_management_overview_103",
+        "question": "What is the Business Management course at ISLA University about?",
+        "response": "The Business Management course at ISLA University aims to train professionals with solid knowledge and skills in management, capable of working beyond internal and external organizational borders. The course covers planning, accounting, auditing, and management strategies to prepare students for various roles in business."
+      },
+      {
+        "id": "business_management_objectives_104",
+        "question": "What are the objectives of the Business Management course?",
+        "response": "The objectives of the Business Management course include training students to understand and solve management problems, develop proactive attitudes, and contribute to planning and auditing functions within organizations. Graduates will be equipped with cognitive and relational skills to act as agents of change."
+      },
+      {
+        "id": "business_management_professional_opportunities_105",
+        "question": "What professional opportunities are available for Business Management graduates?",
+        "response": "Graduates of the Business Management course can pursue careers as official accountants, managers, consultants, financial analysts, or specialized technicians in various functional areas of organizations."
+      },
+      {
+        "id": "business_management_timetable_106",
+        "question": "What are the timetables for the Business Management course?",
+        "response": "The Business Management course at ISLA University offers both day and evening timetables to accommodate different student needs."
+      },
+      {
+        "id": "computer_science_ecommerce_overview_107",
+        "question": "What is the Computer Science for Electronic Commerce course at ISLA University about?",
+        "response": "The Computer Science for Electronic Commerce course at ISLA University focuses on developing IT solutions for electronic commerce, including web-based computing architectures, intelligent systems, digital marketing strategies, and project management."
+      },
+      {
+        "id": "computer_science_ecommerce_objectives_108",
+        "question": "What are the objectives of the Computer Science for Electronic Commerce course?",
+        "response": "The course aims to train professionals with high technical and scientific competence, enabling them to develop and manage e-commerce solutions, analyze business models, design IT solutions, and manage digital marketing strategies effectively."
+      },
+      {
+        "id": "computer_science_ecommerce_professional_opportunities_109",
+        "question": "What professional opportunities are available for Computer Science for Electronic Commerce graduates?",
+        "response": "Graduates can work as e-commerce managers, project managers, consultants, business analysts, web marketers, and software developers specializing in e-commerce platforms."
+      },
+      {
+        "id": "computer_science_ecommerce_timetable_110",
+        "question": "What are the timetables for the Computer Science for Electronic Commerce course?",
+        "response": "The course offers both diurnal and evening schedules to accommodate different student preferences."
+      },
+      {
+        "id": "digital_communication_overview_111",
+        "question": "What is the Digital Communication course at ISLA University about?",
+        "response": "The Digital Communication course prepares students for the competitive job market by equipping them with knowledge of digital communication fundamentals, including theories, concepts, technological tools, and relevant practices in the digital environment."
+      },
+      {
+        "id": "digital_communication_objectives_112",
+        "question": "What are the objectives of the Digital Communication course?",
+        "response": "The course aims to provide students with the skills needed to communicate effectively in digital environments, critically analyze digital communication issues, and find creative solutions using digital tools and data analysis."
+      },
+      {
+        "id": "digital_communication_professional_opportunities_113",
+        "question": "What professional opportunities are available for Digital Communication graduates?",
+        "response": "Graduates can pursue careers as marketing data analysts, SEO specialists, digital marketing managers, social media managers, content producers, and more within the digital communication field."
+      },
+      {
+        "id": "digital_communication_timetable_114",
+        "question": "What are the timetables for the Digital Communication course?",
+        "response": "The Digital Communication course is offered in both diurnal and evening schedules to accommodate students' needs."
+      },
+      {
+        "id": "human_resources_management_overview_115",
+        "question": "What is the Human Resources Management course at ISLA University about?",
+        "response": "The Human Resources Management course focuses on developing skills to manage and develop human capital within organizations. The course covers strategic objectives, recruitment processes, performance recognition, and health and safety programs."
+      },
+      {
+        "id": "human_resources_management_objectives_116",
+        "question": "What are the objectives of the Human Resources Management course?",
+        "response": "The course aims to equip students with the ability to diagnose and anticipate economic and labor market trends, set strategic objectives for workforce development, and implement recruitment and performance management processes."
+      },
+      {
+        "id": "human_resources_management_professional_opportunities_117",
+        "question": "What professional opportunities are available for Human Resources Management graduates?",
+        "response": "Graduates can work as HR consultants, managers, team coordinators, vocational trainers, recruitment specialists, and social auditors within various organizations."
+      },
+      {
+        "id": "human_resources_management_timetable_118",
+        "question": "What are the timetables for the Human Resources Management course?",
+        "response": "The Human Resources Management course offers both diurnal and evening schedules to accommodate students' needs."
+      },
+      {
+        "id": "informatics_engineering_overview_119",
+        "question": "What is the Informatics Engineering course at ISLA University about?",
+        "response": "The Informatics Engineering course focuses on training professionals in computer solutions design, network administration, intelligent systems, and project management, preparing them for various roles in the field of computer engineering."
+      },
+      {
+        "id": "informatics_engineering_objectives_120",
+        "question": "What are the objectives of the Informatics Engineering course?",
+        "response": "The course aims to develop technical and scientific competence in areas such as requirements analysis, computer architecture design, software development, and project management."
+      },
+      {
+        "id": "informatics_engineering_professional_opportunities_121",
+        "question": "What professional opportunities are available for Informatics Engineering graduates?",
+        "response": "Graduates can pursue careers as software engineers, systems analysts, database administrators, IT project managers, and network administrators."
+      },
+      {
+        "id": "informatics_engineering_timetable_122",
+        "question": "What are the timetables for the Informatics Engineering course?",
+        "response": "The course offers both day and evening schedules to accommodate different student needs."
+      },
+      {
+        "id": "multimedia_overview_123",
+        "question": "What is the Multimedia course at ISLA University about?",
+        "response": "The Multimedia course trains students in the creation and application of multimedia content, focusing on cultural, social, and technological aspects to prepare them for roles in multimedia project development, web design, and audiovisual production."
+      },
+      {
+        "id": "multimedia_objectives_124",
+        "question": "What are the objectives of the Multimedia course?",
+        "response": "The course aims to provide students with the necessary resources to understand and dominate multimedia languages, develop narrative and creative skills, and design multimedia solutions for various platforms."
+      },
+      {
+        "id": "multimedia_professional_opportunities_125",
+        "question": "What professional opportunities are available for Multimedia graduates?",
+        "response": "Graduates can work in database design, multimedia project development, 3D modeling and animation, web design, audiovisual production, and more."
+      },
+      {
+        "id": "multimedia_timetable_126",
+        "question": "What are the timetables for the Multimedia course?",
+        "response": "The Multimedia course offers both diurnal and evening schedules to accommodate different student needs."
+      },
+      {
+        "id": "occupational_safety_engineering_overview_127",
+        "question": "What is the Occupational Safety Engineering course at ISLA University about?",
+        "response": "The Occupational Safety Engineering course focuses on training professionals to ensure safety and health in the workplace, preparing them to manage occupational risks and implement safety measures in compliance with legal standards."
+      },
+      {
+        "id": "occupational_safety_engineering_objectives_128",
+        "question": "What are the objectives of the Occupational Safety Engineering course?",
+        "response": "The course aims to promote qualified training in occupational safety, ensuring the implementation of prevention services, risk assessment, and safety management systems within organizations."
+      },
+      {
+        "id": "occupational_safety_engineering_professional_opportunities_129",
+        "question": "What professional opportunities are available for Occupational Safety Engineering graduates?",
+        "response": "Graduates can work as safety engineers, consultants, inspectors, trainers, or civil protection technicians, specializing in occupational health and safety."
+      },
+      {
+        "id": "occupational_safety_engineering_timetable_130",
+        "question": "What are the timetables for the Occupational Safety Engineering course?",
+        "response": "The Occupational Safety Engineering course offers both day and evening schedules to accommodate different student needs."
+      },
+      {
+        "id": "tourism_management_overview_131",
+        "question": "What is the Tourism Management course at ISLA University about?",
+        "response": "The Tourism Management course focuses on providing excellence in human resources for the tourism industry, with a solid theoretical foundation in tourism and management, and aims to prepare students for careers in various tourism-related fields."
+      },
+      {
+        "id": "tourism_management_objectives_132",
+        "question": "What are the objectives of the Tourism Management course?",
+        "response": "The course aims to train students in the latest tourism trends, entrepreneurship, resource sustainability, and career development within the tourism industry."
+      },
+      {
+        "id": "tourism_management_professional_opportunities_133",
+        "question": "What professional opportunities are available for Tourism Management graduates?",
+        "response": "Graduates can pursue careers as national and local tourist guides, tourism project managers, consultants, trainers, or coordinators of tourism programs and events."
+      },
+      {
+        "id": "tourism_management_timetable_134",
+        "question": "What are the timetables for the Tourism Management course?",
+        "response": "The Tourism Management course offers both diurnal and evening schedules to accommodate different student needs."
+      },
+      {
+        "id": "business_management_coordinator_contact_135",
+        "question": "Who is the coordinator of the Business Management course, and how can I contact them?",
+        "response": "The coordinator of the Business Management course is José Fernando da Silva Neto. You can contact him through the university's general contact at info@islagaia.pt or by calling (+351) 223 772 980."
+      },
+      {
+        "id": "computer_science_ecommerce_coordinator_contact_136",
+        "question": "Who are the coordinators of the Computer Science for Electronic Commerce course, and how can I contact them?",
+        "response": "The coordinators of the Computer Science for Electronic Commerce course are Firmino Oliveira da Silva and Jorge Manuel Pereira Duque. You can contact them through the university's general contact at info@islagaia.pt or by calling (+351) 223 772 980."
+      },
+      {
+        "id": "digital_communication_coordinator_contact_137",
+        "question": "Who are the coordinators of the Digital Communication course, and how can I contact them?",
+        "response": "The coordinators of the Digital Communication course are Artur Filipe dos Santos and José Joaquim Magalhães Moreira. You can contact them through the university's general contact at info@islagaia.pt or by calling (+351) 223 772 980."
+      },
+      {
+        "id": "human_resources_management_coordinator_contact_138",
+        "question": "Who is the coordinator of the Human Resources Management course, and how can I contact them?",
+        "response": "The coordinator of the Human Resources Management course is Maria Elisete dos Reis Martins Ferreira. You can contact her through the university's general contact at info@islagaia.pt or by calling (+351) 223 772 980."
+      },
+      {
+        "id": "informatics_engineering_coordinator_contact_139",
+        "question": "Who is the coordinator of the Informatics Engineering course, and how can I contact them?",
+        "response": "The coordinator of the Informatics Engineering course is José Joaquim Magalhães Moreira. You can contact him through the university's general contact at info@islagaia.pt or by calling (+351) 223 772 980."
+      },
+      {
+        "id": "multimedia_coordinator_contact_140",
+        "question": "Who are the coordinators of the Multimedia course, and how can I contact them?",
+        "response": "The coordinators of the Multimedia course are João Miguel Barros Aguiar Pereira and José Joaquim Magalhães Moreira. You can contact them through the university's general contact at info@islagaia.pt or by calling (+351) 223 772 980."
+      },
+      {
+        "id": "occupational_safety_engineering_coordinator_contact_141",
+        "question": "Who is the coordinator of the Occupational Safety Engineering course, and how can I contact them?",
+        "response": "The coordinator of the Occupational Safety Engineering course is Hernâni Artur Veloso Neto. You can contact him through the university's general contact at info@islagaia.pt or by calling (+351) 223 772 980."
+      },
+      {
+        "id": "tourism_management_coordinator_contact_142",
+        "question": "Who is the coordinator of the Tourism Management course, and how can I contact them?",
+        "response": "The coordinator of the Tourism Management course is Alexandra Maria de Almeida Matos Pereira. You can contact her through the university's general contact at info@islagaia.pt or by calling (+351) 223 772 980."
+      },
+      {
+        "id": "course_calendar_schedules_143",
+        "question": "Where can I find the calendars and schedules for courses at ISLA University?",
+        "response": "Calendars and schedules for all courses at ISLA University can be found on the university's website under the 'Courses' section. This includes important dates, class schedules, and examination periods."
+      },
+      {
+        "id": "tuition_fees_144",
+        "question": "What are the tuition fees for courses at ISLA University?",
+        "response": "Tuition fees for courses at ISLA University vary depending on the program and level of study. Detailed information about fees can be found on the university's website under the 'Tuition Fees' section."
+      },
+      {
+        "id": "master_degrees_overview_145",
+        "question": "What Master's degrees are offered at ISLA University?",
+        "response": "ISLA University offers several Master's degrees, including Finance and Taxation, Web Technologies and Systems Engineering, Human Resources Management, Occupational Health and Safety Management, and Management."
+      },
+      {
+        "id": "finance_taxation_overview_146",
+        "question": "What is the Master in Finance and Taxation at ISLA University about?",
+        "response": "The Master in Finance and Taxation at ISLA University is an advanced program designed to develop high professional skills in finance and taxation. It covers topics such as accounting, statistical methods, research methodologies, and data science to prepare students for the complexities of the business world."
+      },
+      {
+        "id": "finance_taxation_objectives_147",
+        "question": "What are the objectives of the Finance and Taxation Master's program?",
+        "response": "The objectives of the Finance and Taxation Master's program include providing robust theoretical and technical training in finance and taxation, developing skills for financial and tax management, consultancy, and decision-making in business contexts."
+      },
+      {
+        "id": "finance_taxation_professional_opportunities_148",
+        "question": "What professional opportunities are available for graduates of the Finance and Taxation Master's program?",
+        "response": "Graduates of the Finance and Taxation Master's program can pursue careers in financial and tax management, consultancy, investment portfolio management, and financial risk management."
+      },
+      {
+        "id": "finance_taxation_timetable_149",
+        "question": "What are the timetables for the Finance and Taxation Master's program?",
+        "response": "The Finance and Taxation Master's program at ISLA University is designed to be completed 'After Work,' accommodating working professionals."
+      },
+      {
+        "id": "finance_taxation_coordinator_contact_150",
+        "question": "Who is the coordinator of the Finance and Taxation Master's program, and how can I contact them?",
+        "response": "The coordinator of the Finance and Taxation Master's program is José Fernando da Silva Neto. You can contact him via email at rosalina.pires@islagaia.pt or by calling 223 772 989."
+      },
+      {
+        "id": "web_technologies_overview_151",
+        "question": "What is the Master in Web Technologies and Systems Engineering at ISLA University about?",
+        "response": "The Master in Web Technologies and Systems Engineering is designed to provide advanced training in computer sciences, focusing on developing specific technical, scientific, and behavioral skills necessary for the fast-digitizing economy."
+      },
+      {
+        "id": "web_technologies_objectives_152",
+        "question": "What are the objectives of the Web Technologies and Systems Engineering Master's program?",
+        "response": "The objectives include training professionals and researchers to apply knowledge in multidisciplinary contexts, solve complex problems, communicate their findings effectively, and acquire lifelong learning skills."
+      },
+      {
+        "id": "web_technologies_professional_opportunities_153",
+        "question": "What professional opportunities are available for graduates of the Web Technologies and Systems Engineering Master's program?",
+        "response": "Graduates can pursue careers in web development, systems engineering, data science, artificial intelligence, cloud computing, and more within the technology sector."
+      },
+      {
+        "id": "web_technologies_timetable_154",
+        "question": "What are the timetables for the Web Technologies and Systems Engineering Master's program?",
+        "response": "The Web Technologies and Systems Engineering Master's program at ISLA University is scheduled 'After Work,' making it convenient for working professionals."
+      },
+      {
+        "id": "web_technologies_coordinator_contact_155",
+        "question": "Who are the coordinators of the Web Technologies and Systems Engineering Master's program, and how can I contact them?",
+        "response": "The coordinators of the Web Technologies and Systems Engineering Master's program are Firmino Oliveira da Silva and Ricardo Vardasca. You can contact them via email at rosalina.pires@islagaia.pt or by calling 223 772 989."
+      },
+      {
+        "id": "hr_management_masters_overview_156",
+        "question": "What is the Master in Human Resources Management at ISLA University about?",
+        "response": "The Master in Human Resources Management at ISLA University focuses on developing skills to understand and solve HR management problems, enhancing organizational performance, and integrating HR practices with organizational strategy."
+      },
+      {
+        "id": "hr_management_masters_objectives_157",
+        "question": "What are the objectives of the Human Resources Management Master's program?",
+        "response": "The objectives include analyzing individual and group behaviors in the workplace, implementing HR management tools, evaluating HR policies, and conducting research on HR management themes."
+      },
+      {
+        "id": "hr_management_masters_professional_opportunities_158",
+        "question": "What professional opportunities are available for graduates of the Human Resources Management Master's program?",
+        "response": "Graduates can work as HR managers, consultants, team coordinators, vocational trainers, and organizational development specialists."
+      },
+      {
+        "id": "hr_management_masters_timetable_159",
+        "question": "What are the timetables for the Human Resources Management Master's program?",
+        "response": "The Human Resources Management Master's program is offered 'After Work,' accommodating students who are also working professionals."
+      },
+      {
+        "id": "hr_management_masters_coordinator_contact_160",
+        "question": "Who are the coordinators of the Human Resources Management Master's program, and how can I contact them?",
+        "response": "The coordinators of the Human Resources Management Master's program are Carlos Miguel Fernandes de Oliveira and Maria Elisete dos Reis Martins Ferreira. You can contact them via email at rosalina.pires@islagaia.pt or by calling 223 772 989."
+      },
+      {
+        "id": "ohs_management_overview_161",
+        "question": "What is the Master in Occupational Health and Safety Management at ISLA University about?",
+        "response": "The Master in Occupational Health and Safety Management is aimed at professionals seeking to deepen their skills in implementing, monitoring, and auditing occupational health and safety management systems, as well as integrating them with quality, environment, and social responsibility systems."
+      },
+      {
+        "id": "ohs_management_objectives_162",
+        "question": "What are the objectives of the Occupational Health and Safety Management Master's program?",
+        "response": "The objectives include training professionals to manage occupational health and safety systems, promoting a culture of safety in organizations, and conducting research in this field."
+      },
+      {
+        "id": "ohs_management_professional_opportunities_163",
+        "question": "What professional opportunities are available for graduates of the Occupational Health and Safety Management Master's program?",
+        "response": "Graduates can work as occupational health and safety managers, consultants, auditors, and trainers, specializing in workplace safety and health systems."
+      },
+      {
+        "id": "ohs_management_timetable_164",
+        "question": "What are the timetables for the Occupational Health and Safety Management Master's program?",
+        "response": "The Occupational Health and Safety Management Master's program is offered 'After Work,' making it suitable for working professionals."
+      },
+      {
+        "id": "ohs_management_coordinator_contact_165",
+        "question": "Who is the coordinator of the Occupational Health and Safety Management Master's program, and how can I contact them?",
+        "response": "The coordinator of the Occupational Health and Safety Management Master's program is Hernâni Veloso Neto. You can contact him via email at rosalina.pires@islagaia.pt or by calling 223 772 989."
+      },
+      {
+        "id": "management_masters_overview_166",
+        "question": "What is the Master in Management at ISLA University about?",
+        "response": "The Master in Management at ISLA University is designed to provide advanced training in management, focusing on the development of technical and scientific skills for entrepreneurs, managers, and technical directors in various organizations."
+      },
+      {
+        "id": "management_masters_objectives_167",
+        "question": "What are the objectives of the Management Master's program?",
+        "response": "The objectives include mastering management theories and practices, conducting original research, developing solutions to complex management problems, and effectively communicating research results."
+      },
+      {
+        "id": "management_masters_professional_opportunities_168",
+        "question": "What professional opportunities are available for graduates of the Management Master's program?",
+        "response": "Graduates can pursue careers as managers, technical directors, consultants, and entrepreneurs in various industries, both nationally and internationally."
+      },
+      {
+        "id": "management_masters_timetable_169",
+        "question": "What are the timetables for the Management Master's program?",
+        "response": "The Management Master's program is offered 'After Work,' providing flexibility for students who are working professionals."
+      },
+      {
+        "id": "management_masters_coordinator_contact_170",
+        "question": "Who is the coordinator of the Management Master's program, and how can I contact them?",
+        "response": "The coordinator of the Management Master's program is Carlos Miguel Fernandes de Oliveira. You can contact him via email at rosalina.pires@islagaia.pt or by calling 223 772 989."
+      },
+      {
+        "id": "postgraduate_mba_overview_171",
+        "question": "What Postgraduate/MBA programs are offered at ISLA University?",
+        "response": "ISLA University offers a variety of Postgraduate/MBA programs, including the Executive MBA, Digital Marketing & E-Commerce, Entrepreneurship: Tech Startups, Project Management for Sustainable Development, and more."
+      },
+      {
+        "id": "executive_mba_overview_172",
+        "question": "What is the Executive MBA at ISLA University about?",
+        "response": "The Executive MBA at ISLA University is designed to enhance leadership and management skills, preparing professionals for strategic decision-making, team management, and solving complex business problems."
+      },
+      {
+        "id": "executive_mba_objectives_173",
+        "question": "What are the objectives of the Executive MBA program?",
+        "response": "The objectives include enhancing career opportunities, personal growth, effective team leadership, strategic decision-making, expanding professional networks, and gaining a deep understanding of market trends and financial management."
+      },
+      {
+        "id": "executive_mba_professional_opportunities_174",
+        "question": "What professional opportunities are available for graduates of the Executive MBA program?",
+        "response": "Graduates can pursue careers as CEOs, CFOs, CMOs, HR Directors, management consultants, and other high-responsibility positions in various industries."
+      },
+      {
+        "id": "executive_mba_timetable_175",
+        "question": "What are the timetables for the Executive MBA program?",
+        "response": "The Executive MBA program is offered on Fridays from 7 pm to 11 pm (face-to-face) and Saturdays from 9 am to 1 pm (e-learning)."
+      },
+      {
+        "id": "executive_mba_tuition_fees_176",
+        "question": "What are the tuition fees for the Executive MBA program at ISLA University?",
+        "response": "The tuition fees for the Executive MBA program are €1980 (€220 x 9 months). Additional fees include application, registration, insurance, and a qualification certificate."
+      },
+      {
+        "id": "executive_mba_coordinator_contact_177",
+        "question": "Who is the coordinator of the Executive MBA program, and how can I contact them?",
+        "response": "The coordinator of the Executive MBA program is Carina Meireles. You can contact her via email at info@islagaia.pt or by calling 223 772 980."
+      },
+      {
+        "id": "digital_marketing_overview_178",
+        "question": "What is the Postgraduate Course in Digital Marketing & E-Commerce at ISLA University about?",
+        "response": "The Postgraduate Course in Digital Marketing & E-Commerce at ISLA University is designed to provide theoretical and practical skills in digital marketing, focusing on current trends, tools, and strategies essential for success in the digital market."
+      },
+      {
+        "id": "digital_marketing_objectives_179",
+        "question": "What are the objectives of the Digital Marketing & E-Commerce Postgraduate program?",
+        "response": "The objectives include providing knowledge of digital marketing trends, enhancing strategic skills, and developing practical abilities in tools such as Google Analytics, SEO, social media management, and email marketing."
+      },
+      {
+        "id": "digital_marketing_professional_opportunities_180",
+        "question": "What professional opportunities are available for graduates of the Digital Marketing & E-Commerce Postgraduate program?",
+        "response": "Graduates can work as digital marketing specialists, SEO experts, social media managers, e-commerce consultants, and content marketers."
+      },
+      {
+        "id": "digital_marketing_timetable_181",
+        "question": "What are the timetables for the Digital Marketing & E-Commerce Postgraduate program?",
+        "response": "The Digital Marketing & E-Commerce program is offered on Fridays from 7 pm to 11 pm and Saturdays from 9 am to 1 pm."
+      },
+      {
+        "id": "digital_marketing_tuition_fees_182",
+        "question": "What are the tuition fees for the Digital Marketing & E-Commerce Postgraduate program?",
+        "response": "The tuition fees for the Digital Marketing & E-Commerce Postgraduate program are €1675.60 (€209.45 x 8 months). Additional fees include application, registration, insurance, and a qualification certificate."
+      },
+      {
+        "id": "digital_marketing_coordinator_contact_183",
+        "question": "Who is the coordinator of the Digital Marketing & E-Commerce Postgraduate program, and how can I contact them?",
+        "response": "You can contact the coordinator of the Digital Marketing & E-Commerce Postgraduate program via email at info@islagaia.pt or by calling 223 772 980."
+      },
+      {
+        "id": "entrepreneurship_startups_overview_184",
+        "question": "What is the Postgraduate Course in Entrepreneurship: Tech Startups at ISLA University about?",
+        "response": "The Postgraduate Course in Entrepreneurship: Tech Startups is focused on helping students understand the entrepreneurial process, validate business ideas, and develop the skills needed to successfully launch and grow a startup."
+      },
+      {
+        "id": "entrepreneurship_startups_objectives_185",
+        "question": "What are the objectives of the Entrepreneurship: Tech Startups Postgraduate program?",
+        "response": "The objectives include developing an entrepreneurial mindset, building business models, understanding risk management, enhancing networking opportunities, and acquiring practical skills in launching and managing startups."
+      },
+      {
+        "id": "entrepreneurship_startups_professional_opportunities_186",
+        "question": "What professional opportunities are available for graduates of the Entrepreneurship: Tech Startups Postgraduate program?",
+        "response": "Graduates can pursue careers as startup founders, innovation managers, entrepreneurship consultants, and leaders in creativity and innovation."
+      },
+      {
+        "id": "entrepreneurship_startups_timetable_187",
+        "question": "What are the timetables for the Entrepreneurship: Tech Startups Postgraduate program?",
+        "response": "The Entrepreneurship: Tech Startups program is offered on Tuesdays and Thursdays, from 7 pm to 11 pm."
+      },
+      {
+        "id": "entrepreneurship_startups_tuition_fees_188",
+        "question": "What are the tuition fees for the Entrepreneurship: Tech Startups Postgraduate program?",
+        "response": "The tuition fees for the Entrepreneurship: Tech Startups Postgraduate program are €2000 (€200 x 10 months). Additional fees include application, registration, insurance, and a qualification certificate."
+      },
+      {
+        "id": "entrepreneurship_startups_coordinator_contact_189",
+        "question": "Who is the coordinator of the Entrepreneurship: Tech Startups Postgraduate program, and how can I contact them?",
+        "response": "The coordinator of the Entrepreneurship: Tech Startups Postgraduate program is Marco Lamas. You can contact him via email at info@islagaia.pt or by calling 223 772 980."
+      },
+      {
+        "id": "project_management_sustainable_development_overview_190",
+        "question": "What is the Postgraduate Course in Project Management for Sustainable Development at ISLA University about?",
+        "response": "The Postgraduate Course in Project Management for Sustainable Development focuses on balancing social, environmental, and economic goals. It aims to develop skills in responsible governance, addressing climate change challenges, and achieving the UN Sustainable Development Goals (SDGs) through project management."
+      },
+      {
+        "id": "project_management_sustainable_development_objectives_191",
+        "question": "What are the objectives of the Project Management for Sustainable Development Postgraduate program?",
+        "response": "The objectives include understanding sustainable development concepts, applying project management to achieve sustainable goals, selecting appropriate tools and techniques, managing stakeholder participation, and adapting pedagogical resources to active methodologies."
+      },
+      {
+        "id": "project_management_sustainable_development_professional_opportunities_192",
+        "question": "What professional opportunities are available for graduates of the Project Management for Sustainable Development Postgraduate program?",
+        "response": "Graduates can work as project managers, project analysts, governance professionals in sustainable practices (ESG), and professionals focused on socio-environmental impact careers."
+      },
+      {
+        "id": "project_management_sustainable_development_timetable_193",
+        "question": "What are the timetables for the Project Management for Sustainable Development Postgraduate program?",
+        "response": "The Project Management for Sustainable Development Postgraduate program is scheduled 'After Work,' making it convenient for working professionals."
+      },
+      {
+        "id": "project_management_sustainable_development_tuition_fees_194",
+        "question": "What are the tuition fees for the Project Management for Sustainable Development Postgraduate program?",
+        "response": "The tuition fees for the Project Management for Sustainable Development Postgraduate program are €1677.60 (€209.70 x 8 months). Additional fees include application, registration, insurance, and a qualification certificate."
+      },
+      {
+        "id": "project_management_sustainable_development_coordinator_contact_195",
+        "question": "Who can I contact for more information about the Project Management for Sustainable Development Postgraduate program?",
+        "response": "For more information about the Project Management for Sustainable Development Postgraduate program, you can contact ISLA University via email at info@islagaia.pt or by calling 223 772 980."
+      },
+      {
+        "id": "active_methodologies_digital_technologies_education_overview_196",
+        "question": "What is the Postgraduate Course in Active Methodologies and Digital Technologies for Education at ISLA University about?",
+        "response": "The Postgraduate Course in Active Methodologies and Digital Technologies for Education aims to provide tools for integrating active methodologies with digital technologies in teaching, enhancing the professional development of teachers and trainers across various educational levels."
+      },
+      {
+        "id": "active_methodologies_digital_technologies_education_objectives_197",
+        "question": "What are the objectives of the Active Methodologies and Digital Technologies for Education Postgraduate program?",
+        "response": "The objectives include creating and adapting pedagogical resources to active methodologies, using digital technologies ethically in education, applying STEAM Education principles, and developing skills for teaching and evaluating with digital technologies."
+      },
+      {
+        "id": "active_methodologies_digital_technologies_education_professional_opportunities_198",
+        "question": "What professional opportunities are available for graduates of the Active Methodologies and Digital Technologies for Education Postgraduate program?",
+        "response": "Graduates can work as primary and secondary school teachers, vocational education trainers, and professionals focused on integrating digital technologies in education."
+      },
+      {
+        "id": "active_methodologies_digital_technologies_education_timetable_199",
+        "question": "What are the timetables for the Active Methodologies and Digital Technologies for Education Postgraduate program?",
+        "response": "The Active Methodologies and Digital Technologies for Education Postgraduate program is scheduled 'After Work,' accommodating working professionals."
+      },
+      {
+        "id": "active_methodologies_digital_technologies_education_tuition_fees_200",
+        "question": "What are the tuition fees for the Active Methodologies and Digital Technologies for Education Postgraduate program?",
+        "response": "The tuition fees for the Active Methodologies and Digital Technologies for Education Postgraduate program are €1677.60 (€209.70 x 8 months). Additional fees include application, registration, insurance, and a qualification certificate."
+      },
+      {
+        "id": "active_methodologies_digital_technologies_education_coordinator_contact_201",
+        "question": "Who can I contact for more information about the Active Methodologies and Digital Technologies for Education Postgraduate program?",
+        "response": "For more information about the Active Methodologies and Digital Technologies for Education Postgraduate program, you can contact ISLA University via email at info@islagaia.pt or by calling 223 772 980."
+      },
+      {
+        "id": "corporate_happiness_mental_health_overview_202",
+        "question": "What is the MBA in Corporate Happiness & Mental Health at ISLA University about?",
+        "response": "The MBA in Corporate Happiness & Mental Health focuses on organizational happiness, well-being, and mental health. It provides tools and methodologies for implementing management programs that promote happiness and mental health within corporate environments."
+      },
+      {
+        "id": "corporate_happiness_mental_health_objectives_203",
+        "question": "What are the objectives of the Corporate Happiness & Mental Health MBA program?",
+        "response": "The objectives include understanding happiness in organizational contexts, deepening knowledge on mental health and well-being, developing leadership skills, and creating management plans aligned with organizational values for happiness and mental health."
+      },
+      {
+        "id": "corporate_happiness_mental_health_professional_opportunities_204",
+        "question": "What professional opportunities are available for graduates of the Corporate Happiness & Mental Health MBA program?",
+        "response": "Graduates can pursue careers in corporate leadership, HR management focused on well-being, organizational development, and consultancy roles related to mental health and happiness in the workplace."
+      },
+      {
+        "id": "corporate_happiness_mental_health_timetable_205",
+        "question": "What are the timetables for the Corporate Happiness & Mental Health MBA program?",
+        "response": "The Corporate Happiness & Mental Health MBA program is offered on Tuesdays and Thursdays from 6:30 pm to 10:00 pm."
+      },
+      {
+        "id": "corporate_happiness_mental_health_tuition_fees_206",
+        "question": "What are the tuition fees for the Corporate Happiness & Mental Health MBA program?",
+        "response": "The tuition fees for the Corporate Happiness & Mental Health MBA program are €2310.30 (€256.70 x 9 months). Additional fees include application, registration, insurance, and a qualification certificate."
+      },
+      {
+        "id": "corporate_happiness_mental_health_coordinator_contact_207",
+        "question": "Who can I contact for more information about the Corporate Happiness & Mental Health MBA program?",
+        "response": "For more information about the Corporate Happiness & Mental Health MBA program, you can contact ISLA University via email at info@islagaia.pt or by calling 223 772 980."
+      },
+      {
+        "id": "digital_experience_design_overview_208",
+        "question": "What is the Postgraduate Course in Digital Experience Design at ISLA University about?",
+        "response": "The Postgraduate Course in Digital Experience Design focuses on developing skills in UI/UX design, digital product design, and creating engaging online experiences. It prepares students for careers in digital product development, offering practical training in creating portfolios and launching digital projects."
+      },
+      {
+        "id": "digital_experience_design_objectives_209",
+        "question": "What are the objectives of the Digital Experience Design Postgraduate program?",
+        "response": "The objectives include learning to design and launch digital projects, understanding UX research principles, developing wireframes and prototypes, and managing digital projects with a focus on user experience and digital strategy."
+      },
+      {
+        "id": "digital_experience_design_professional_opportunities_210",
+        "question": "What professional opportunities are available for graduates of the Digital Experience Design Postgraduate program?",
+        "response": "Graduates can pursue careers as UX/UI designers, digital product designers, digital project managers, web designers, and digital entrepreneurs."
+      },
+      {
+        "id": "digital_experience_design_timetable_211",
+        "question": "What are the timetables for the Digital Experience Design Postgraduate program?",
+        "response": "The Digital Experience Design Postgraduate program is scheduled on Mondays and Thursdays during after-work hours."
+      },
+      {
+        "id": "digital_experience_design_tuition_fees_212",
+        "question": "What are the tuition fees for the Digital Experience Design Postgraduate program?",
+        "response": "The tuition fees for the Digital Experience Design Postgraduate program are €1728.00 (€216.00 x 8 months). Additional fees include application, registration, insurance, and a qualification certificate."
+      },
+      {
+        "id": "digital_experience_design_coordinator_contact_213",
+        "question": "Who can I contact for more information about the Digital Experience Design Postgraduate program?",
+        "response": "For more information about the Digital Experience Design Postgraduate program, you can contact ISLA University via email at info@islagaia.pt or by calling 223 772 980."
+      },
+      {
+        "id": "business_management_micro_small_businesses_overview_214",
+        "question": "What is the Postgraduate Course in Business Management Applied to Micro and Small Businesses at ISLA University about?",
+        "response": "The Postgraduate Course in Business Management Applied to Micro and Small Businesses focuses on providing practical management skills and tools tailored to the unique challenges faced by micro and small enterprises. It covers business model development, financial management, and strategic planning."
+      },
+      {
+        "id": "business_management_micro_small_businesses_objectives_215",
+        "question": "What are the objectives of the Business Management Applied to Micro and Small Businesses Postgraduate program?",
+        "response": "The objectives include developing management skills, overcoming obstacles in micro and small businesses, improving competitiveness, and providing practical knowledge for managing and monitoring business processes."
+      },
+      {
+        "id": "business_management_micro_small_businesses_professional_opportunities_216",
+        "question": "What professional opportunities are available for graduates of the Business Management Applied to Micro and Small Businesses Postgraduate program?",
+        "response": "Graduates can pursue roles as small business managers, entrepreneurs, self-employed business owners, and professionals in management and leadership positions within micro and small enterprises."
+      },
+      {
+        "id": "business_management_micro_small_businesses_timetable_217",
+        "question": "What are the timetables for the Business Management Applied to Micro and Small Businesses Postgraduate program?",
+        "response": "The Business Management Applied to Micro and Small Businesses Postgraduate program is offered on Tuesdays and Thursdays from 7:00 pm to 11:00 pm."
+      },
+      {
+        "id": "business_management_micro_small_businesses_tuition_fees_218",
+        "question": "What are the tuition fees for the Business Management Applied to Micro and Small Businesses Postgraduate program?",
+        "response": "The tuition fees for the Business Management Applied to Micro and Small Businesses Postgraduate program are €1419.50 (€141.95 x 10 months). Additional fees include application, registration, insurance, and a qualification certificate."
+      },
+      {
+        "id": "business_management_micro_small_businesses_coordinator_contact_219",
+        "question": "Who can I contact for more information about the Business Management Applied to Micro and Small Businesses Postgraduate program?",
+        "response": "For more information about the Business Management Applied to Micro and Small Businesses Postgraduate program, you can contact ISLA University via email at info@islagaia.pt or by calling 223 772 980."
+      },
+      {
+        "id": "occupational_nursing_overview_220",
+        "question": "What is the Postgraduate Course in Occupational Nursing at ISLA University about?",
+        "response": "The Postgraduate Course in Occupational Nursing is designed to provide nurses with specific knowledge and skills in Occupational Health and Safety. It focuses on promoting worker health and safety, in line with regulations and guidelines in the field of Occupational Nursing."
+      },
+      {
+        "id": "occupational_nursing_objectives_221",
+        "question": "What are the objectives of the Occupational Nursing Postgraduate program?",
+        "response": "The objectives include applying knowledge in Occupational Nursing to enhance worker health and safety, mastering occupational health policies, and promoting well-being in the workplace."
+      },
+      {
+        "id": "occupational_nursing_professional_opportunities_222",
+        "question": "What professional opportunities are available for graduates of the Occupational Nursing Postgraduate program?",
+        "response": "Graduates can work as occupational nurses, health and safety officers, and professionals in occupational health management."
+      },
+      {
+        "id": "occupational_nursing_timetable_223",
+        "question": "What are the timetables for the Occupational Nursing Postgraduate program?",
+        "response": "The Occupational Nursing Postgraduate program is offered on Fridays from 7:00 pm to 11:00 pm and Saturdays from 9:00 am to 1:00 pm."
+      },
+      {
+        "id": "occupational_nursing_tuition_fees_224",
+        "question": "What are the tuition fees for the Occupational Nursing Postgraduate program?",
+        "response": "The tuition fees for the Occupational Nursing Postgraduate program are €1275.60 (€159.45 x 8 months). Additional fees include application, registration, insurance, and a qualification certificate."
+      },
+      {
+        "id": "occupational_nursing_coordinator_contact_225",
+        "question": "Who can I contact for more information about the Occupational Nursing Postgraduate program?",
+        "response": "For more information about the Occupational Nursing Postgraduate program, you can contact ISLA University via email at info@islagaia.pt or by calling 223 772 980."
+      },
+      {
+        "id": "social_economy_organizations_management_overview_226",
+        "question": "What is the Postgraduate Course in Management of Social Economy Organizations at ISLA University about?",
+        "response": "The Postgraduate Course in Management of Social Economy Organizations focuses on providing essential knowledge and management tools for improving the performance of Social Economy organizations, such as NGOs, cooperatives, and other non-profit entities."
+      },
+      {
+        "id": "social_economy_organizations_management_objectives_227",
+        "question": "What are the objectives of the Management of Social Economy Organizations Postgraduate program?",
+        "response": "The objectives include enhancing the quality of Social Economy organizations, improving their capacity to respond to challenges, and providing practical management knowledge for operational, tactical, and strategic realities."
+      },
+      {
+        "id": "social_economy_organizations_management_professional_opportunities_228",
+        "question": "What professional opportunities are available for graduates of the Management of Social Economy Organizations Postgraduate program?",
+        "response": "Graduates can pursue roles as managers and leaders in Social Economy organizations, technical directors, cultural animators, and other positions related to the social sector."
+      },
+      {
+        "id": "social_economy_organizations_management_timetable_229",
+        "question": "What are the timetables for the Management of Social Economy Organizations Postgraduate program?",
+        "response": "The Management of Social Economy Organizations Postgraduate program is offered on Fridays from 7:00 pm to 11:00 pm and Saturdays from 9:00 am to 12:00 pm."
+      },
+      {
+        "id": "social_economy_organizations_management_tuition_fees_230",
+        "question": "What are the tuition fees for the Management of Social Economy Organizations Postgraduate program?",
+        "response": "The tuition fees for the Management of Social Economy Organizations Postgraduate program are €1706.20 (€170.62 x 10 months). Additional fees include application, registration, insurance, and a qualification certificate."
+      },
+      {
+        "id": "social_economy_organizations_management_coordinator_contact_231",
+        "question": "Who can I contact for more information about the Management of Social Economy Organizations Postgraduate program?",
+        "response": "For more information about the Management of Social Economy Organizations Postgraduate program, you can contact ISLA University via email at info@islagaia.pt or by calling 223 772 980."
+      },
+      {
+        "id": "community_intervention_family_parenting_overview_232",
+        "question": "What is the Postgraduate Course in Community Intervention in Family and Parenting at ISLA University about?",
+        "response": "The Postgraduate Course in Community Intervention in Family and Parenting aims to provide professionals with theoretical support and practical tools for working with families, focusing on collaborative practices, intervention strategies, and the development of family-oriented projects."
+      },
+      {
+        "id": "community_intervention_family_parenting_objectives_233",
+        "question": "What are the objectives of the Community Intervention in Family and Parenting Postgraduate program?",
+        "response": "The objectives include deepening understanding of family well-being, acquiring knowledge for family intervention, developing intervention plans and strategies, and improving the effectiveness of family intervention professionals."
+      },
+      {
+        "id": "community_intervention_family_parenting_professional_opportunities_234",
+        "question": "What professional opportunities are available for graduates of the Community Intervention in Family and Parenting Postgraduate program?",
+        "response": "Graduates can work as community intervention project technicians, government body technicians, educational organization technicians, and association leaders focused on family and parenting support."
+      },
+      {
+        "id": "community_intervention_family_parenting_timetable_235",
+        "question": "What are the timetables for the Community Intervention in Family and Parenting Postgraduate program?",
+        "response": "The Community Intervention in Family and Parenting Postgraduate program is offered on Mondays and Wednesdays from 7:00 pm to 11:00 pm."
+      },
+      {
+        "id": "community_intervention_family_parenting_tuition_fees_236",
+        "question": "What are the tuition fees for the Community Intervention in Family and Parenting Postgraduate program?",
+        "response": "The tuition fees for the Community Intervention in Family and Parenting Postgraduate program are €1089.00 (€108.90 x 10 months). Additional fees include application, registration, insurance, and a qualification certificate."
+      },
+      {
+        "id": "community_intervention_family_parenting_coordinator_contact_237",
+        "question": "Who can I contact for more information about the Community Intervention in Family and Parenting Postgraduate program?",
+        "response": "For more information about the Community Intervention in Family and Parenting Postgraduate program, you can contact ISLA University via email at info@islagaia.pt or by calling 223 772 980."
+      },
+      {
+        "id": "cybersecurity_overview_238",
+        "question": "What is the Postgraduate Course in Cybersecurity at ISLA University about?",
+        "response": "The Postgraduate Course in Cybersecurity is designed to equip professionals with solid theoretical and practical knowledge in cybersecurity, focusing on protecting organizations from cyberattacks and ensuring data privacy and integrity."
+      },
+      {
+        "id": "cybersecurity_objectives_239",
+        "question": "What are the objectives of the Cybersecurity Postgraduate program?",
+        "response": "The objectives include mastering information security, designing and implementing security policies, detecting and resolving system vulnerabilities, managing security incidents, and conducting cybersecurity audits and penetration tests."
+      },
+      {
+        "id": "cybersecurity_professional_opportunities_240",
+        "question": "What professional opportunities are available for graduates of the Cybersecurity Postgraduate program?",
+        "response": "Graduates can work as cybersecurity consultants, IT risk analysts, forensic computing specialists, cybersecurity auditors, and secure web and mobile systems programmers."
+      },
+      {
+        "id": "cybersecurity_timetable_241",
+        "question": "What are the timetables for the Cybersecurity Postgraduate program?",
+        "response": "The Cybersecurity Postgraduate program is offered on Tuesdays and Thursdays from 7:00 pm to 11:00 pm."
+      },
+      {
+        "id": "cybersecurity_tuition_fees_242",
+        "question": "What are the tuition fees for the Cybersecurity Postgraduate program?",
+        "response": "The tuition fees for the Cybersecurity Postgraduate program are €1522.50 (€152.25 x 10 months). Additional fees include application, registration, insurance, and a qualification certificate."
+      },
+      {
+        "id": "cybersecurity_coordinator_contact_243",
+        "question": "Who can I contact for more information about the Cybersecurity Postgraduate program?",
+        "response": "For more information about the Cybersecurity Postgraduate program, you can contact ISLA University via email at info@islagaia.pt or by calling 223 772 980."
+      },
+      {
+        "id": "business_analytics_data_science_overview_244",
+        "question": "What is the Postgraduate Course in Business Analytics and Data Science at ISLA University about?",
+        "response": "The Postgraduate Course in Business Analytics and Data Science provides structured training in data science and analytics, focusing on applying data analysis techniques and machine learning algorithms to create value in organizations across various sectors."
+      },
+      {
+        "id": "business_analytics_data_science_objectives_245",
+        "question": "What are the objectives of the Business Analytics and Data Science Postgraduate program?",
+        "response": "The objectives include developing skills in planning and executing data science projects, applying analytics tools, understanding data problems, and preparing and implementing data-driven solutions."
+      },
+      {
+        "id": "business_analytics_data_science_professional_opportunities_246",
+        "question": "What professional opportunities are available for graduates of the Business Analytics and Data Science Postgraduate program?",
+        "response": "Graduates can pursue careers as data scientists, data analysts, business intelligence professionals, and data engineers across various sectors, including banking, health, retail, and public sector organizations."
+      },
+      {
+        "id": "business_analytics_data_science_timetable_247",
+        "question": "What are the timetables for the Business Analytics and Data Science Postgraduate program?",
+        "response": "The Business Analytics and Data Science Postgraduate program is scheduled on Fridays from 7:00 pm to 11:00 pm and Saturdays from 9:00 am to 1:00 pm."
+      },
+      {
+        "id": "business_analytics_data_science_tuition_fees_248",
+        "question": "What are the tuition fees for the Business Analytics and Data Science Postgraduate program?",
+        "response": "The tuition fees for the Business Analytics and Data Science Postgraduate program are €2301.60 (€230.16 x 10 months). Additional fees include application, registration, insurance, and a qualification certificate."
+      },
+      {
+        "id": "business_analytics_data_science_coordinator_contact_249",
+        "question": "Who can I contact for more information about the Business Analytics and Data Science Postgraduate program?",
+        "response": "For more information about the Business Analytics and Data Science Postgraduate program, you can contact ISLA University via email at info@islagaia.pt or by calling 223 772 980."
+      },
+      {
+        "id": "social_organizational_psychology_overview_250",
+        "question": "What is the Postgraduate Course in Social and Organizational Psychology at ISLA University about?",
+        "response": "The Postgraduate Course in Social and Organizational Psychology aims to provide scientific and technical training in the area of psychology, focusing on human behavior in social and organizational contexts. The course covers topics like organizational behavior, leadership, teamwork, and conflict resolution."
+      },
+      {
+        "id": "social_organizational_psychology_objectives_251",
+        "question": "What are the objectives of the Social and Organizational Psychology Postgraduate program?",
+        "response": "The objectives include strengthening interpersonal, communication, leadership, and teamwork skills; providing practical training in research; diagnosing and intervening in organizational contexts; and promoting well-being and conflict resolution."
+      },
+      {
+        "id": "social_organizational_psychology_professional_opportunities_252",
+        "question": "What professional opportunities are available for graduates of the Social and Organizational Psychology Postgraduate program?",
+        "response": "Graduates can pursue careers in social and behavioral sciences, business management, leadership roles, and consultancy in organizational contexts."
+      },
+      {
+        "id": "social_organizational_psychology_timetable_253",
+        "question": "What are the timetables for the Social and Organizational Psychology Postgraduate program?",
+        "response": "The Social and Organizational Psychology Postgraduate program is scheduled for after-work hours."
+      },
+      {
+        "id": "social_organizational_psychology_tuition_fees_254",
+        "question": "What are the tuition fees for the Social and Organizational Psychology Postgraduate program?",
+        "response": "The tuition fees for the Social and Organizational Psychology Postgraduate program are €1627.60 (€203.45 x 8 months). Additional fees include application, registration, insurance, and a qualification certificate."
+      },
+      {
+        "id": "social_organizational_psychology_coordinator_contact_255",
+        "question": "Who can I contact for more information about the Social and Organizational Psychology Postgraduate program?",
+        "response": "For more information about the Social and Organizational Psychology Postgraduate program, you can contact ISLA University via email at info@islagaia.pt or by calling 223 772 980."
+      },
+      {
+        "id": "advanced_hr_management_overview_256",
+        "question": "What is the Postgraduate Course in Advanced Human Resource Management at ISLA University about?",
+        "response": "The Postgraduate Course in Advanced Human Resource Management focuses on deepening people management skills, with an emphasis on attracting, managing, and developing talent, creating a positive organizational climate, and enhancing HR practices."
+      },
+      {
+        "id": "advanced_hr_management_objectives_257",
+        "question": "What are the objectives of the Advanced Human Resource Management Postgraduate program?",
+        "response": "The objectives include acquiring an integrated perspective on people management, understanding cultural contexts, using predictive recruitment methods, designing performance evaluation systems, and updating skills in labor legislation and HR management."
+      },
+      {
+        "id": "advanced_hr_management_professional_opportunities_258",
+        "question": "What professional opportunities are available for graduates of the Advanced Human Resource Management Postgraduate program?",
+        "response": "Graduates can work in human resources as HR professionals, managers, consultants, or business leaders focused on people management and organizational development."
+      },
+      {
+        "id": "advanced_hr_management_timetable_259",
+        "question": "What are the timetables for the Advanced Human Resource Management Postgraduate program?",
+        "response": "The Advanced Human Resource Management Postgraduate program is offered on Fridays from 7:00 pm to 11:00 pm and Saturdays from 9:00 am to 1:00 pm."
+      },
+      {
+        "id": "advanced_hr_management_tuition_fees_260",
+        "question": "What are the tuition fees for the Advanced Human Resource Management Postgraduate program?",
+        "response": "The tuition fees for the Advanced Human Resource Management Postgraduate program are €1682 (€210.25 x 8 months). Additional fees include application, registration, insurance, and a qualification certificate."
+      },
+      {
+        "id": "advanced_hr_management_coordinator_contact_261",
+        "question": "Who can I contact for more information about the Advanced Human Resource Management Postgraduate program?",
+        "response": "For more information about the Advanced Human Resource Management Postgraduate program, you can contact ISLA University via email at info@islagaia.pt or by calling 223 772 980."
+      },
+      {
+        "id": "integrated_management_systems_overview_262",
+        "question": "What is the Postgraduate Course in Integrated Management Systems – Quality, Environment, and Safety at ISLA University about?",
+        "response": "The Postgraduate Course in Integrated Management Systems – Quality, Environment, and Safety is designed to train professionals in the design, implementation, and auditing of management systems according to ISO standards, including ISO 9001, ISO 14001, and ISO 45001."
+      },
+      {
+        "id": "integrated_management_systems_objectives_263",
+        "question": "What are the objectives of the Integrated Management Systems – Quality, Environment, and Safety Postgraduate program?",
+        "response": "The objectives include providing skills in the design, implementation, and auditing of integrated management systems in quality, environment, and safety, in accordance with relevant ISO standards."
+      },
+      {
+        "id": "integrated_management_systems_professional_opportunities_264",
+        "question": "What professional opportunities are available for graduates of the Integrated Management Systems – Quality, Environment, and Safety Postgraduate program?",
+        "response": "Graduates can pursue roles as quality managers, environmental managers, safety managers, and auditors specializing in integrated management systems."
+      },
+      {
+        "id": "integrated_management_systems_timetable_265",
+        "question": "What are the timetables for the Integrated Management Systems – Quality, Environment, and Safety Postgraduate program?",
+        "response": "The Integrated Management Systems – Quality, Environment, and Safety Postgraduate program is offered on Fridays from 7:00 pm to 11:00 pm and Saturdays from 9:00 am to 1:00 pm."
+      },
+      {
+        "id": "integrated_management_systems_tuition_fees_266",
+        "question": "What are the tuition fees for the Integrated Management Systems – Quality, Environment, and Safety Postgraduate program?",
+        "response": "The tuition fees for the Integrated Management Systems – Quality, Environment, and Safety Postgraduate program are €1596.00 (€159.60 x 10 months). Additional fees include application, registration, insurance, and a qualification certificate."
+      },
+      {
+        "id": "integrated_management_systems_coordinator_contact_267",
+        "question": "Who can I contact for more information about the Integrated Management Systems – Quality, Environment, and Safety Postgraduate program?",
+        "response": "For more information about the Integrated Management Systems – Quality, Environment, and Safety Postgraduate program, you can contact ISLA University via email at info@islagaia.pt or by calling 223 772 980."
+      },
+      {
+        "id": "school_library_management_overview_268",
+        "question": "What is the Postgraduate Course in School Library Management at ISLA University about?",
+        "response": "The Postgraduate Course in School Library Management aims to provide specialized knowledge in organizing, managing, and promoting school libraries, addressing the evolving role of school libraries in supporting education and literacy in the 21st century."
+      },
+      {
+        "id": "school_library_management_objectives_269",
+        "question": "What are the objectives of the School Library Management Postgraduate program?",
+        "response": "The objectives include equipping teacher librarians and their teams with the necessary tools and knowledge for organizing, managing, and planning School Library services to meet the demands of modern education."
+      },
+      {
+        "id": "school_library_management_professional_opportunities_270",
+        "question": "What professional opportunities are available for graduates of the School Library Management Postgraduate program?",
+        "response": "Graduates can work as school librarians, members of school library teams, and educators with a focus on school library management and literacy development."
+      },
+      {
+        "id": "school_library_management_timetable_271",
+        "question": "What are the timetables for the School Library Management Postgraduate program?",
+        "response": "The School Library Management Postgraduate program is scheduled for after-work hours."
+      },
+      {
+        "id": "school_library_management_tuition_fees_272",
+        "question": "What are the tuition fees for the School Library Management Postgraduate program?",
+        "response": "The tuition fees for the School Library Management Postgraduate program are €1493.10 (€165.90 x 9 months). Additional fees include application, registration, insurance, and a qualification certificate."
+      },
+      {
+        "id": "school_library_management_coordinator_contact_273",
+        "question": "Who can I contact for more information about the School Library Management Postgraduate program?",
+        "response": "For more information about the School Library Management Postgraduate program, you can contact ISLA University via email at info@islagaia.pt or by calling 223 772 980."
+      },
+      {
+        "id": "isla_university_president_274",
+        "question": "Who is the President of ISLA University?",
+        "response": "The President of ISLA - Polytechnic Institute of Management and Technology is Prof. Doutor António Lencastre Godinho."
+      },
+      {
+        "id": "isla_university_programs_offered_275",
+        "question": "What programs does ISLA University offer?",
+        "response": "ISLA offers a variety of undergraduate, postgraduate, and professional programs across multiple disciplines, including Management, Technology, Social Sciences, and more."
+      },
+      {
+        "id": "isla_university_location_276",
+        "question": "Where is ISLA University located?",
+        "response": "ISLA - Polytechnic Institute of Management and Technology is located in Portugal."
+      },
+      {
+        "id": "isla_university_contact_info_277",
+        "question": "What is the contact information for ISLA University?",
+        "response": "You can contact ISLA University via email at info@isla.pt or by phone at +351 123 456 789."
+      },
+      {
+        "id": "isla_university_president_message_278",
+        "question": "What is the message from the President of ISLA University?",
+        "response": "The President, Prof. Doutor António Lencastre Godinho, emphasizes the importance of education in today's challenging times and highlights the growth and success of the institution over the years. He welcomes students and staff to a new academic year and encourages collaboration and commitment to further strengthen ISLA's image."
+      },
+      {
+        "id": "isla_university_admission_requirements_279",
+        "question": "What are the admission requirements for ISLA University?",
+        "response": "The admission requirements vary depending on the program, but generally include submission of academic transcripts, a completed application form, and proof of language proficiency for non-native speakers."
+      },
+      {
+        "id": "isla_university_scholarships_280",
+        "question": "What scholarships are available at ISLA University?",
+        "response": "ISLA University offers several scholarships based on academic merit, financial need, and specific eligibility criteria related to various programs."
+      },
+      {
+        "id": "isla_university_application_process_281",
+        "question": "How can I apply to ISLA University?",
+        "response": "To apply to ISLA University, you need to fill out the online application form on the university's website, submit required documents, and pay the application fee."
+      },
+      {
+        "id": "isla_university_academic_calendar_282",
+        "question": "What is the academic calendar for ISLA University?",
+        "response": "The academic calendar at ISLA University typically includes two semesters: Fall and Spring. Exact dates and deadlines can be found on the university's official website."
+      },
+      {
+        "id": "isla_university_student_services_283",
+        "question": "What student services are available at ISLA University?",
+        "response": "ISLA University offers a range of student services, including academic advising, career counseling, mental health services, and extracurricular activities."
+      },
+      {
+        "id": "isla_university_facilities_284",
+        "question": "What facilities are available at ISLA University?",
+        "response": "ISLA University provides state-of-the-art facilities, including modern classrooms, libraries, laboratories, and student lounges to enhance the learning experience."
+      },
+      {
+        "id": "isla_university_oncampus_housing_285",
+        "question": "Is there on-campus housing at ISLA University?",
+        "response": "Yes, ISLA University offers on-campus housing options for students, with various accommodation types to suit different preferences and budgets."
+      },
+      {
+        "id": "isla_university_tuition_fees_286",
+        "question": "What are the tuition fees at ISLA University?",
+        "response": "Tuition fees at ISLA University vary by program and degree level. Detailed information can be found on the university's website or by contacting the admissions office."
+      },
+      {
+        "id": "isla_university_research_opportunities_287",
+        "question": "What are the research opportunities at ISLA University?",
+        "response": "ISLA University encourages research and offers various opportunities for students to engage in research projects, particularly at the postgraduate level."
+      },
+      {
+        "id": "isla_university_international_exchange_288",
+        "question": "What international exchange programs does ISLA University offer?",
+        "response": "ISLA University participates in several international exchange programs, allowing students to study abroad and gain global experience."
+      },
+      {
+        "id": "isla_university_student_faculty_ratio_289",
+        "question": "What is the student-to-faculty ratio at ISLA University?",
+        "response": "ISLA University prides itself on maintaining a low student-to-faculty ratio to ensure personalized attention and a better learning environment."
+      },
+      {
+        "id": "isla_university_career_development_290",
+        "question": "How does ISLA University support student career development?",
+        "response": "ISLA University offers career services, including internships, job placements, and career counseling to help students transition into the workforce."
+      },
+      {
+        "id": "isla_university_extracurricular_activities_291",
+        "question": "What extracurricular activities are available at ISLA University?",
+        "response": "ISLA University offers a wide range of extracurricular activities, including student clubs, sports teams, and cultural events to enrich the student experience."
+      },
+      {
+        "id": "isla_university_language_programs_292",
+        "question": "What language programs are available at ISLA University?",
+        "response": "ISLA University offers various language programs, including courses in English, Portuguese, and other languages to support international students and enhance global competencies."
+      },
+      {
+        "id": "isla_university_online_courses_293",
+        "question": "Does ISLA University offer online courses?",
+        "response": "Yes, ISLA University offers a range of online courses and programs, allowing students to study remotely and flexibly."
+      },
+      {
+        "id": "isla_university_alumni_network_294",
+        "question": "What is the alumni network like at ISLA University?",
+        "response": "ISLA University has a strong alumni network, providing graduates with opportunities for networking, mentorship, and career advancement."
+      },
+      {
+        "id": "isla_university_online_courses_295",
+        "question": "What are the working days of the university?",
+        "response": "ISLA University operates from Monday to Friday, with classes and administrative services available during these days."
+    },
+    {
+        "id": "isla_university_address_296",
+        "question": "What is the address of ISLA University?",
+        "response": "ISLA University is located at Rua dos Lusíadas, 4000-098 Porto, Portugal."
+    },
+    {
+        "id": "isla_university_faculty_details_297",
+        "question": "How many faculties does ISLA University have?",
+        "response": "ISLA University has five major faculties: Faculty of Arts, Faculty of Science, Faculty of Business, Faculty of Health Sciences, and Faculty of Engineering."
+    },
+    {
+        "id": "isla_university_mission_298",
+        "question": "What is the mission of ISLA University?",
+        "response": "ISLA University’s mission is to provide quality education, support innovation, and foster research while actively contributing to the development of society."
+    },
+    {
+        "id": "isla_university_contact_299",
+        "question": "How can I contact ISLA University?",
+        "response": "You can contact ISLA University through the main office by phone at +351 22 507 3800 or by email at info@isla.edu.pt."
+    },
+    {
+        "id": "isla_university_accommodation_300",
+        "question": "Does ISLA University provide accommodation for students?",
+        "response": "Yes, ISLA University offers on-campus housing for students, with options for single or shared rooms in its dormitories."
+    },
+    {
+        "id": "isla_university_extracurricular_301",
+        "question": "What extracurricular activities are available at ISLA University?",
+        "response": "ISLA University offers a wide range of extracurricular activities, including sports teams, cultural clubs, volunteer programs, and student associations."
+    },
+    {
+        "id": "isla_university_tuition_fees_302",
+        "question": "What are the tuition fees at ISLA University?",
+        "response": "Tuition fees at ISLA University vary depending on the program. Undergraduate programs typically range from €1,500 to €3,000 per academic year."
+    },
+    {
+        "id": "isla_university_library_hours_303",
+        "question": "What are the library opening hours at ISLA University?",
+        "response": "The library at ISLA University is open from 8:00 AM to 8:00 PM, Monday through Friday."
+    },
+    {
+        "id": "isla_university_scholarships_304",
+        "question": "Are there any scholarships available at ISLA University?",
+        "response": "Yes, ISLA University offers various merit-based and need-based scholarships for eligible students."
+    },
+    {
+      "id": "isla_university_transportation_305",
+      "question": "What transportation options are available to reach ISLA University?",
+      "response": "ISLA University is well-connected by public transport, including buses, metro services, and nearby train stations. Students can also access car parking on campus."
+  },
+  {
+      "id": "isla_university_cafeteria_306",
+      "question": "Does ISLA University have a cafeteria?",
+      "response": "Yes, ISLA University has a cafeteria offering a variety of meals and snacks at affordable prices for students and staff."
+  },
+  {
+      "id": "isla_university_course_catalog_307",
+      "question": "Where can I find the course catalog for ISLA University?",
+      "response": "The course catalog for ISLA University can be accessed online through the official website under the 'Academics' section."
+  },
+  {
+      "id": "isla_university_international_students_308",
+      "question": "Does ISLA University accept international students?",
+      "response": "Yes, ISLA University welcomes international students and offers various support services, including language courses and visa assistance."
+  },
+  {
+      "id": "isla_university_campus_tours_309",
+      "question": "Can I take a campus tour of ISLA University?",
+      "response": "Yes, prospective students can book a campus tour through the admissions office or online to explore ISLA University's facilities."
+  },
+  {
+      "id": "isla_university_graduation_requirements_310",
+      "question": "What are the graduation requirements at ISLA University?",
+      "response": "To graduate from ISLA University, students must complete the required coursework, meet the credit requirements, and submit a final project or thesis depending on the program."
+  },
+  {
+      "id": "isla_university_student_support_311",
+      "question": "What student support services does ISLA University offer?",
+      "response": "ISLA University offers a range of student support services, including academic advising, counseling, career services, and disability support."
+  },
+  {
+      "id": "isla_university_alumni_events_312",
+      "question": "Does ISLA University organize alumni events?",
+      "response": "Yes, ISLA University hosts various alumni events throughout the year, including networking events, reunions, and professional development workshops."
+  },
+  {
+      "id": "isla_university_language_courses_313",
+      "question": "Are there language courses available at ISLA University?",
+      "response": "Yes, ISLA University offers language courses in Portuguese, English, and other languages to help students improve their language skills."
+  },
+  {
+      "id": "isla_university_career_fairs_314",
+      "question": "Does ISLA University organize career fairs?",
+      "response": "Yes, ISLA University organizes annual career fairs, bringing together students, alumni, and employers to explore career opportunities."
+  },
+  {
+      "id": "isla_university_exchange_programs_315",
+      "question": "Are there exchange programs at ISLA University?",
+      "response": "Yes, ISLA University has exchange programs in collaboration with several international universities, allowing students to study abroad for a semester or academic year."
+  },
+  {
+    "id": "isla_university_online_application_deadline_316",
+    "question": "What is the deadline for online applications to ISLA University?",
+    "response": "The online application deadlines for ISLA University vary by program. You can find specific dates on the admissions page of the ISLA University website."
+},
+{
+    "id": "isla_university_scholarships_317",
+    "question": "Does ISLA University offer scholarships?",
+    "response": "Yes, ISLA University offers various scholarships based on academic merit, financial need, and special achievements. More information is available on the financial aid section of the university’s website."
+},
+{
+    "id": "isla_university_accommodation_318",
+    "question": "Is there on-campus accommodation available at ISLA University?",
+    "response": "Yes, ISLA University provides on-campus accommodation for students. Accommodation options include dormitories and shared apartments."
+},
+{
+    "id": "isla_university_open_day_319",
+    "question": "When is ISLA University’s open day?",
+    "response": "ISLA University holds its annual open day in the spring, providing prospective students the opportunity to learn more about programs, tour the campus, and meet faculty and current students."
+},
+{
+    "id": "isla_university_internships_320",
+    "question": "Are there internship opportunities for ISLA University students?",
+    "response": "Yes, ISLA University partners with various companies and organizations to offer internship opportunities that provide hands-on experience and career development."
+},
+{
+    "id": "isla_university_lab_access_321",
+    "question": "Do ISLA University students have access to research labs?",
+    "response": "Yes, ISLA University students have access to state-of-the-art research labs as part of their coursework and thesis projects."
+},
+{
+    "id": "isla_university_health_services_322",
+    "question": "What health services are available to ISLA University students?",
+    "response": "ISLA University provides students with access to on-campus health services, including basic medical care, mental health counseling, and wellness programs."
+},
+{
+    "id": "isla_university_library_hours_323",
+    "question": "What are the ISLA University library hours?",
+    "response": "The ISLA University library is open from 8:00 AM to 10:00 PM on weekdays and 9:00 AM to 6:00 PM on weekends."
+},
+{
+    "id": "isla_university_cultural_clubs_324",
+    "question": "Are there cultural clubs at ISLA University?",
+    "response": "Yes, ISLA University has a variety of cultural clubs that cater to different student interests, including language, music, art, and international student associations."
+},
+{
+    "id": "isla_university_research_grants_325",
+    "question": "Can ISLA University students apply for research grants?",
+    "response": "Yes, students at ISLA University can apply for research grants to support their thesis or independent research projects. Details are available through the research office."
+},
+{
+    "id": "isla_university_sports_facilities_326",
+    "question": "What sports facilities are available at ISLA University?",
+    "response": "ISLA University offers a range of sports facilities including a gym, swimming pool, tennis courts, and football fields. Students can also join various sports clubs and teams."
+},
+{
+    "id": "isla_university_part_time_courses_327",
+    "question": "Does ISLA University offer part-time courses?",
+    "response": "Yes, ISLA University offers part-time courses for working professionals who want to pursue further education while balancing their work commitments."
+},
+{
+    "id": "isla_university_security_services_328",
+    "question": "Are there security services on campus at ISLA University?",
+    "response": "Yes, ISLA University provides 24/7 campus security services to ensure the safety of students, staff, and visitors."
+},
+{
+    "id": "isla_university_study_abroad_support_329",
+    "question": "Does ISLA University provide support for students studying abroad?",
+    "response": "Yes, ISLA University has a dedicated international office that assists students with study abroad programs, providing guidance on applications, visa processes, and accommodation."
+}
+
+  
+    
+    ]
+  }
+  
